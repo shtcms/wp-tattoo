@@ -1,0 +1,648 @@
+{
+    "version": "0.4",
+    "title": "Portfolio",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-portfolio",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "6a9a9e15",
+            "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "height": "min-height",
+                "custom_height": {
+                    "unit": "px",
+                    "size": 200,
+                    "sizes": []
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/tools-for-a-tattoo-lying-on-asdffgsd-table-5A7HZ2Y.jpg",
+                    "id": 1171
+                },
+                "background_position": "center center",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#000000"
+            },
+            "elements": [
+                {
+                    "id": "3b84a21e",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "710b01bf",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1170,
+                                    "sizes": []
+                                },
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "17d40748",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "align": "center",
+                                        "space_between_widgets": 0,
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "15",
+                                            "bottom": "0",
+                                            "left": "15",
+                                            "isLinked": false
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "433ad2e2",
+                                            "settings": {
+                                                "__dynamic__": {
+                                                    "title": "[elementor-tag id=\"\" name=\"page-title\" settings=\"%7B%22include_context%22%3A%22%22%2C%22show_home_title%22%3A%22%22%2C%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                                                },
+                                                "title": "Add Your Heading Text Here",
+                                                "align": "center",
+                                                "title_color": "#FFFFFF",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "17",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 58,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "500"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "theme-page-title",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "681339d0",
+                                            "settings": {
+                                                "title": "Home",
+                                                "header_size": "h6",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Open Sans",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_text_transform": "capitalize",
+                                                "_element_width": "auto",
+                                                "__dynamic__": {
+                                                    "link": "[elementor-tag id=\"b645c6a\" name=\"site-url\" settings=\"%7B%7D\"]"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "33db2ab7",
+                                            "settings": {
+                                                "title": "\/",
+                                                "header_size": "h6",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Open Sans",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "16",
+                                                    "bottom": "0",
+                                                    "left": "16",
+                                                    "isLinked": false
+                                                },
+                                                "_element_width": "auto"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "71a4a644",
+                                            "settings": {
+                                                "title": "",
+                                                "header_size": "h6",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Open Sans",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_text_transform": "capitalize",
+                                                "_element_width": "auto",
+                                                "__dynamic__": {
+                                                    "title": "[elementor-tag id=\"e5327d6\" name=\"page-title\" settings=\"%7B%7D\"]"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "59fb1a2a",
+            "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "margin": {
+                    "unit": "px",
+                    "top": "85",
+                    "right": 0,
+                    "bottom": "85",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "margin_tablet": {
+                    "unit": "px",
+                    "top": "70",
+                    "right": 0,
+                    "bottom": "70",
+                    "left": 0,
+                    "isLinked": true
+                },
+                "margin_mobile": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": 0,
+                    "bottom": "50",
+                    "left": 0,
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "6ecde452",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "8a17975",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1170,
+                                    "sizes": []
+                                },
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "142dabc4",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "space_between_widgets": 0,
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "15",
+                                            "bottom": "0",
+                                            "left": "15",
+                                            "isLinked": false
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "4b52ff5b",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-anchor",
+                                                    "library": "fa-solid"
+                                                },
+                                                "primary_color": "#D19F68",
+                                                "size": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "13",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "65972112",
+                                            "settings": {
+                                                "title": "Latest Works",
+                                                "header_size": "h3",
+                                                "align": "center",
+                                                "title_color": "#000000",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "23",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "7e3f7afb",
+                                            "settings": {
+                                                "editor": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.<\/p>",
+                                                "align": "center",
+                                                "text_color": "#000000",
+                                                "typography_typography": "custom",
+                                                "typography_font_style": "italic",
+                                                "typography_line_height": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "30",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding": {
+                                                    "unit": "%",
+                                                    "top": "0",
+                                                    "right": "9",
+                                                    "bottom": "0",
+                                                    "left": "9",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_margin_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "6852cf19",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1170,
+                                    "sizes": []
+                                },
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "3817f87d",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "space_between_widgets": 0
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "181b411d",
+                                            "settings": {
+                                                "gallery_type": "multiple",
+                                                "galleries": [
+                                                    {
+                                                        "gallery_title": "TATTOO DESIGN",
+                                                        "_id": "738d269",
+                                                        "multiple_gallery": [
+                                                            {
+                                                                "id": 1402,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/closeuep-of-knucle-tatfftoomns-of-a-man-PPFEVMJ.jpg"
+                                                            },
+                                                            {
+                                                                "id": 863,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-7.jpg"
+                                                            },
+                                                            {
+                                                                "id": 1404,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/womandfdf-fashion-jewertrlry-beautiful-tattoo-W5LU6RQ.jpg"
+                                                            },
+                                                            {
+                                                                "id": 867,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-26.jpg"
+                                                            },
+                                                            {
+                                                                "id": 1403,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/closeup-of-tatt\u0111oo-arm-dfdof-a-man-PE7MHSD.jpg"
+                                                            },
+                                                            {
+                                                                "id": 866,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-25.jpg"
+                                                            },
+                                                            {
+                                                                "id": 852,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-21.jpg"
+                                                            },
+                                                            {
+                                                                "id": 865,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-24.jpg"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "gallery_title": "HENNA DESIGN",
+                                                        "multiple_gallery": [
+                                                            {
+                                                                "id": 852,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-21.jpg"
+                                                            },
+                                                            {
+                                                                "id": 865,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-24.jpg"
+                                                            },
+                                                            {
+                                                                "id": 863,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-7.jpg"
+                                                            },
+                                                            {
+                                                                "id": 868,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-28.jpg"
+                                                            },
+                                                            {
+                                                                "id": 866,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-25.jpg"
+                                                            }
+                                                        ],
+                                                        "_id": "4fbdab2"
+                                                    },
+                                                    {
+                                                        "gallery_title": "PIERCING & BODY MODIFICATION",
+                                                        "multiple_gallery": [
+                                                            {
+                                                                "id": 863,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-7.jpg"
+                                                            },
+                                                            {
+                                                                "id": 868,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-28.jpg"
+                                                            },
+                                                            {
+                                                                "id": 866,
+                                                                "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/portfolio-image-25.jpg"
+                                                            }
+                                                        ],
+                                                        "_id": "f757702"
+                                                    }
+                                                ],
+                                                "lazyload": "",
+                                                "ideal_row_height": {
+                                                    "unit": "px",
+                                                    "size": 216,
+                                                    "sizes": []
+                                                },
+                                                "gap": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                },
+                                                "gap_tablet": {
+                                                    "unit": "px",
+                                                    "size": 0,
+                                                    "sizes": []
+                                                },
+                                                "gap_mobile": {
+                                                    "unit": "px",
+                                                    "size": 0,
+                                                    "sizes": []
+                                                },
+                                                "aspect_ratio": "1:1",
+                                                "thumbnail_image_size": "full",
+                                                "thumbnail_image_custom_dimension": {
+                                                    "width": "800",
+                                                    "height": "800"
+                                                },
+                                                "show_all_galleries_label": "All",
+                                                "overlay_description": "description",
+                                                "image_css_filters_brightness": {
+                                                    "unit": "px",
+                                                    "size": 90,
+                                                    "sizes": []
+                                                },
+                                                "image_css_filters_contrast": {
+                                                    "unit": "px",
+                                                    "size": 90,
+                                                    "sizes": []
+                                                },
+                                                "image_css_filters_saturate": {
+                                                    "unit": "px",
+                                                    "size": 0,
+                                                    "sizes": []
+                                                },
+                                                "overlay_background_background": "classic",
+                                                "overlay_background_hover_color": "rgba(0, 0, 0, 0.8)",
+                                                "content_vertical_position": "middle",
+                                                "title_color": "#FFFFFF",
+                                                "description_color": "#FFFFFF",
+                                                "align_filter_bar_items": "center",
+                                                "galleries_title_color_normal": "#000000",
+                                                "galleries_titles_typography_typography": "custom",
+                                                "galleries_titles_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "galleries_title_color_hover": "#D19F68",
+                                                "galleries_title_color_active": "#D19F68",
+                                                "galleries_titles_gap": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_margin_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "30",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_background_background": "classic",
+                                                "_background_image_mobile": {
+                                                    "url": "https:\/\/demo.arrowtheme.com\/tattoo\/wp-content\/uploads\/2020\/04\/bg-home.jpg",
+                                                    "id": 234
+                                                },
+                                                "overlay_title": "title",
+                                                "title_typography_typography": "custom",
+                                                "title_typography_text_transform": "uppercase",
+                                                "gallery_layout": "masonry",
+                                                "columns": 3,
+                                                "image_css_filters_css_filter": "custom",
+                                                "image_css_filters_hover_css_filter": "custom",
+                                                "title_spacing": {
+                                                    "unit": "px",
+                                                    "size": 10,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "gallery",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

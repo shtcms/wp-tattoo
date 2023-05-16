@@ -1,0 +1,205 @@
+{
+    "version": "0.4",
+    "title": "Popups Banner",
+    "type": "popup",
+    "metadata": {
+        "template_type": "section-popup",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "popup",
+        "elementor_pro_conditions": [
+            "include\/singular\/front_page"
+        ],
+        "additional_template_information": [
+            "This is a \"Popup\" template for Elementor Pro.",
+            "This template will display on: Front Page."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "7762cd2c",
+            "settings": {
+                "gap": "no",
+                "padding": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "8",
+                    "bottom": "16",
+                    "left": "8",
+                    "isLinked": ""
+                },
+                "_title": "Section: Popup"
+            },
+            "elements": [
+                {
+                    "id": "2abc5ce1",
+                    "settings": {
+                        "_column_size": "100",
+                        "_inline_size": "",
+                        "space_between_widgets": "16"
+                    },
+                    "elements": [
+                        {
+                            "id": "1cacbf7f",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/templatekits.themewarrior.com\/solvero\/wp-content\/uploads\/sites\/65\/2022\/09\/popups-1.jpg",
+                                    "id": "209",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "custom",
+                                "image_custom_dimension": {
+                                    "width": "568",
+                                    "height": "300"
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": "100",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "2758f546",
+                            "settings": {
+                                "title": "GET 10% OFF",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-16",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "_animation": "fadeInUp",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=9db2acf"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4fcc1868",
+                            "settings": {
+                                "editor": "<p>Commodo elementum, sed imperdiet nunc euismod<\/p>",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-32",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6ad82fa3",
+                            "settings": {
+                                "form_name": "promo",
+                                "form_fields": [
+                                    {
+                                        "custom_id": "email",
+                                        "field_type": "email",
+                                        "required": "true",
+                                        "field_label": "Email",
+                                        "placeholder": "Email address",
+                                        "_id": "b86cf73",
+                                        "width_tablet": "100"
+                                    }
+                                ],
+                                "show_labels": "",
+                                "step_next_label": "Next",
+                                "step_previous_label": "Previous",
+                                "button_text": "Get It Now",
+                                "email_content": "[all-fields]",
+                                "email_content_2": "[all-fields]",
+                                "success_message": "The form was sent successfully.",
+                                "error_message": "An error occurred.",
+                                "required_field_message": "This field is required.",
+                                "invalid_message": "There&#039;s something wrong. The form is invalid.",
+                                "column_gap": {
+                                    "unit": "px",
+                                    "size": "16",
+                                    "sizes": []
+                                },
+                                "row_gap": {
+                                    "unit": "px",
+                                    "size": "16",
+                                    "sizes": []
+                                },
+                                "button_hover_animation": "bob",
+                                "__globals__": {
+                                    "field_background_color": "globals\/colors?id=d56b5f0",
+                                    "field_border_color": "globals\/colors?id=88f848e",
+                                    "button_typography_typography": "globals\/typography?id=accent",
+                                    "button_text_color": "globals\/colors?id=d56b5f0",
+                                    "button_background_hover_color": "globals\/colors?id=accent",
+                                    "button_hover_color": "globals\/colors?id=d56b5f0"
+                                },
+                                "button_width_tablet": "100",
+                                "button_align_tablet": "stretch",
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "72",
+                                    "bottom": "0",
+                                    "left": "72",
+                                    "isLinked": ""
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "32",
+                                    "bottom": "0",
+                                    "left": "32",
+                                    "isLinked": ""
+                                },
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "form",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "",
+                    "elType": "column"
+                }
+            ],
+            "isInner": "",
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": "585",
+            "sizes": []
+        },
+        "entrance_animation": "fadeInUp",
+        "exit_animation": "fadeInUp",
+        "width_mobile": {
+            "unit": "px",
+            "size": "315",
+            "sizes": []
+        },
+        "__globals__": {
+            "close_button_color": "globals\/colors?id=primary"
+        }
+    }
+}

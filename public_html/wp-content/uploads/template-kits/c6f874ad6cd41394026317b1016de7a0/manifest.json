@@ -1,0 +1,1097 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Ragatta - Yacht Club & Boat Rental Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Homepage Rental",
+            "screenshot": "screenshots\/homepage-rental.jpg",
+            "source": "templates\/homepage-rental.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/homepage\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Homepage Club",
+            "screenshot": "screenshots\/homepage-club.jpg",
+            "source": "templates\/homepage-club.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/homepage-club\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Destination",
+            "screenshot": "screenshots\/destination.jpg",
+            "source": "templates\/destination.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/destination\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Yacht",
+            "screenshot": "screenshots\/yacht.jpg",
+            "source": "templates\/yacht.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/yacht\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Yacht",
+            "screenshot": "screenshots\/single-yacht.jpg",
+            "source": "templates\/single-yacht.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/single-yacht\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Form - Block",
+            "screenshot": "screenshots\/contact-form-block.jpg",
+            "source": "templates\/contact-form-block.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/contact-form-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Booking Form - Block",
+            "screenshot": "screenshots\/booking-form-block.jpg",
+            "source": "templates\/booking-form-block.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/booking-form-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Subscribe Form - Block",
+            "screenshot": "screenshots\/subscribe-form-block.jpg",
+            "source": "templates\/subscribe-form-block.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/regatta\/template-kit\/subscribe-form-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.6.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.6.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.2.0",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "aerial-view-of-a-boat-in-the-blue-sea-yachting-l-2021-09-02-08-45-38-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/aerial-view-of-a-boat-in-the-blue-sea-yachting-l-2021-09-02-08-45-38-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 234479,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/aerial-view-of-a-boat-in-the-blue-sea-yachting-lux-TAP5JLD"
+        },
+        {
+            "filename": "yacht-sailing-near-the-rocky-coast-in-turkey-luxu-2021-09-02-08-45-37-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/yacht-sailing-near-the-rocky-coast-in-turkey-luxu-2021-09-02-08-45-37-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 264247,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/yacht-sailing-near-the-rocky-coast-in-turkey-luxur-46CF8Z4"
+        },
+        {
+            "filename": "fteri-beach-cephalonia-kefalonia-greece-white-c-2021-08-27-09-40-11-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/fteri-beach-cephalonia-kefalonia-greece-white-c-2021-08-27-09-40-11-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 219284,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fteri-beach-cephalonia-kefalonia-greece-white-cata-V2TRD35"
+        },
+        {
+            "filename": "bg1.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/bg1-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 235597,
+            "dimensions": [
+                998,
+                665
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "sailing-boat-with-red-sail-on-a-beach-of-deserted.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/sailing-boat-with-red-sail-on-a-beach-of-deserted-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                }
+            ],
+            "filesize": 220697,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/sailing-boat-with-red-sail-on-a-beach-of-deserted--PPB9D2Y"
+        },
+        {
+            "filename": "yacht-on-the-azure-seashore-in-balearic-islands-2021-08-26-17-00-55-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/yacht-on-the-azure-seashore-in-balearic-islands-2021-08-26-17-00-55-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                }
+            ],
+            "filesize": 256660,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/yacht-on-the-azure-seashore-in-balearic-islands-3SXTA6R"
+        },
+        {
+            "filename": "bg2.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/bg2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                }
+            ],
+            "filesize": 250212,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "yacht-ride-2022-04-09-19-09-28-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/yacht-ride-2022-04-09-19-09-28-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                },
+                {
+                    "source": "templates\/single-yacht.json",
+                    "name": "Single Yacht"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 241027,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/yacht-ride-J6F7XDT"
+        },
+        {
+            "filename": "young-people-sitting-on-yacht-2021-08-30-08-26-25-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/young-people-sitting-on-yacht-2021-08-30-08-26-25-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 256320,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-people-sitting-on-yacht-9H8RMBQ"
+        },
+        {
+            "filename": "lonely-yacht-sailing-on-silent-sea-turkey-2021-08-26-19-00-09-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/lonely-yacht-sailing-on-silent-sea-turkey-2021-08-26-19-00-09-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                }
+            ],
+            "filesize": 213459,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/lonely-yacht-sailing-on-silent-sea-turkey-CFD6RNM"
+        },
+        {
+            "filename": "yacht-with-white-sail-sailing-on-a-calm-sea-on-a-b-2022-05-11-22-46-02-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/yacht-with-white-sail-sailing-on-a-calm-sea-on-a-b-2022-05-11-22-46-02-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                }
+            ],
+            "filesize": 257128,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/yacht-with-white-sail-sailing-on-a-calm-sea-on-a-b-89U9ZBY"
+        },
+        {
+            "filename": "motor-yacht-2021-08-26-17-24-40-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/motor-yacht-2021-08-26-17-24-40-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                },
+                {
+                    "source": "templates\/single-yacht.json",
+                    "name": "Single Yacht"
+                }
+            ],
+            "filesize": 241578,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/motor-yacht-P7CR9VK"
+        },
+        {
+            "filename": "catamaran-motor-yacht-on-the-ocean-2021-09-03-23-03-30-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/catamaran-motor-yacht-on-the-ocean-2021-09-03-23-03-30-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                }
+            ],
+            "filesize": 213679,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/catamaran-motor-yacht-on-the-ocean-5ETQAYC"
+        },
+        {
+            "filename": "attractive-strong-woman-sailing-with-her-boat-2021-08-26-17-32-56-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/attractive-strong-woman-sailing-with-her-boat-2021-08-26-17-32-56-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 250472,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/attractive-strong-woman-sailing-with-her-boat-9GKUA83"
+        },
+        {
+            "filename": "team-1.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/team-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 81603,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-4.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/team-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 76961,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-3.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/team-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 61349,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-2.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/team-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-rental.json",
+                    "name": "Homepage Rental"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 93869,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "pier-with-vessels-at-sundown-2022-01-28-06-55-03-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/pier-with-vessels-at-sundown-2022-01-28-06-55-03-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                }
+            ],
+            "filesize": 283656,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pier-with-vessels-at-sundown-FTPXBAU"
+        },
+        {
+            "filename": "white-yachts-under-blue-sky-moored-at-port-harbor-2022-06-12-22-20-01-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/white-yachts-under-blue-sky-moored-at-port-harbor-2022-06-12-22-20-01-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 257223,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/white-yachts-under-blue-sky-moored-at-port-harbor--DPKE223"
+        },
+        {
+            "filename": "bg3.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/bg3-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 262410,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "catamaran-motor-yacht-on-the-ocean.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/catamaran-motor-yacht-on-the-ocean-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                },
+                {
+                    "source": "templates\/yacht.json",
+                    "name": "Yacht"
+                }
+            ],
+            "filesize": 246556,
+            "dimensions": [
+                806,
+                537
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/catamaran-motor-yacht-on-the-ocean-5ETQAYC"
+        },
+        {
+            "filename": "voyage-on-yacht-2021-09-24-02-50-25-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/voyage-on-yacht-2021-09-24-02-50-25-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-club.json",
+                    "name": "Homepage Club"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 236900,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/voyage-on-yacht-LNCQRYV"
+        },
+        {
+            "filename": "modern-vessels-near-quay-at-sunset-2022-01-28-06-56-43-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/modern-vessels-near-quay-at-sunset-2022-01-28-06-56-43-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 268596,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": " https:\/\/elements.envato.com\/modern-vessels-near-quay-at-sunset-8B8PUQJ"
+        },
+        {
+            "filename": "sailing-yacht-2021-08-31-11-23-12-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/sailing-yacht-2021-08-31-11-23-12-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 235142,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/sailing-yacht-E68WSXV"
+        },
+        {
+            "filename": "lofoten-archipelago-islands-islands-norway-2021-08-26-22-59-44-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/lofoten-archipelago-islands-islands-norway-2021-08-26-22-59-44-utc-800x1145.jpg",
+            "templates": [
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 225173,
+            "dimensions": [
+                894,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/lofoten-archipelago-islands-islands-norway-PL5TD4S"
+        },
+        {
+            "filename": "catalina-island-2021-09-04-15-15-45-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/catalina-island-2021-09-04-15-15-45-utc-800x1145.jpg",
+            "templates": [
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 262548,
+            "dimensions": [
+                894,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/catalina-island-7JHAGZS"
+        },
+        {
+            "filename": "padar-island-view-2021-09-24-20-25-33-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/padar-island-view-2021-09-24-20-25-33-utc-800x1145.jpg",
+            "templates": [
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 252747,
+            "dimensions": [
+                894,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/padar-island-view-54KB3GK"
+        },
+        {
+            "filename": "unique-granite-rocky-beach-anse-marron-in-la-digue-2021-08-29-00-32-25-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/unique-granite-rocky-beach-anse-marron-in-la-digue-2021-08-29-00-32-25-utc-800x1145.jpg",
+            "templates": [
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 251451,
+            "dimensions": [
+                894,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/unique-granite-rocky-beach-anse-marron-in-la-digue-98MT4ET"
+        },
+        {
+            "filename": "the-island-2021-08-29-11-24-36-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/the-island-2021-08-29-11-24-36-utc-800x1145.jpg",
+            "templates": [
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 237539,
+            "dimensions": [
+                894,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/the-island-HGRZ5VA"
+        },
+        {
+            "filename": "chapel-in-serifos-island-greece-2021-11-01-18-28-42-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/chapel-in-serifos-island-greece-2021-11-01-18-28-42-utc-800x1145.jpg",
+            "templates": [
+                {
+                    "source": "templates\/destination.json",
+                    "name": "Destination"
+                }
+            ],
+            "filesize": 258598,
+            "dimensions": [
+                894,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/chapel-in-serifos-island-greece-7339SFS"
+        },
+        {
+            "filename": "sea-trip-on-personal-boat-2022-02-16-01-39-22-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/sea-trip-on-personal-boat-2022-02-16-01-39-22-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-yacht.json",
+                    "name": "Single Yacht"
+                }
+            ],
+            "filesize": 241066,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/sea-trip-on-personal-boat-7MAXXBR"
+        },
+        {
+            "filename": "a-black-man-on-a-luxury-yacht-2021-08-30-03-14-37-utc.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/a-black-man-on-a-luxury-yacht-2021-08-30-03-14-37-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-yacht.json",
+                    "name": "Single Yacht"
+                }
+            ],
+            "filesize": 210818,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-black-man-on-a-luxury-yacht-JLL4HMD"
+        },
+        {
+            "filename": "logo1.1.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/logo1.1.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 4300,
+            "dimensions": [
+                298,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo1.2.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/logo1.2.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 4267,
+            "dimensions": [
+                298,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo1.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/regatta\/wp-content\/uploads\/sites\/72\/2022\/06\/logo1.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 4263,
+            "dimensions": [
+                298,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

@@ -1,0 +1,4299 @@
+# Copyright (C) 2020 BookingWP
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Appointments\n"
+"Report-Msgid-Bugs-To: https://bookingwp.com/contact/\n"
+"POT-Creation-Date: 2021-04-08 17:32:49+00:00\n"
+"PO-Revision-Date: 2021-04-08 19:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: info@bookingwp.com\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: dependencies/class-edd-sl-plugin-updater.php:211
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Na voljo je nova različica %1$s. %2$sPoglej podrobnosti za različico %3$s"
+"%4$s."
+
+#: dependencies/class-edd-sl-plugin-updater.php:219
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Na voljo je nova različica %1$s. %2$sPoglej podrobnosti za različico %3$s"
+"%4$s ali %5$s nadgradi zdaj%6$s."
+
+#: dependencies/class-edd-sl-plugin-updater.php:411
+msgid "You do not have permission to install plugin updates"
+msgstr "Nimate dovoljenja za namestitev posodobitev rezširitve"
+
+#: dependencies/class-edd-sl-plugin-updater.php:412
+msgid "Error"
+msgstr "Napaka"
+
+#: includes/admin/class-wc-appointments-admin-add.php:25
+msgid "Error - please try again"
+msgstr "Napaka - poskusite znova"
+
+#: includes/admin/class-wc-appointments-admin-add.php:34
+msgid "Please choose an appointable product"
+msgstr "Izberite izdelek za rezervacije"
+
+#: includes/admin/class-wc-appointments-admin-add.php:47
+#: includes/admin/class-wc-appointments-admin-add.php:104
+msgid "Invalid order ID provided"
+msgstr "Na voljo je neveljaven ID naročila"
+
+#: includes/admin/class-wc-appointments-admin-add.php:94
+msgid "Error: Could not create order"
+msgstr "Napaka: ni bilo mogoče ustvariti naročila"
+
+#: includes/admin/class-wc-appointments-admin-add.php:122
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:324
+msgid "Error: Could not create item"
+msgstr "Napaka: ni bilo mogoče ustvariti elementa naročila"
+
+#: includes/admin/class-wc-appointments-admin-addons.php:22
+#: includes/admin/class-wc-appointments-admin-menus.php:163
+#: includes/admin/class-wc-appointments-admin-settings.php:21
+#: includes/class-wc-appointment-order-manager.php:240
+#: includes/class-wc-appointment-order-manager.php:272
+#: includes/class-wc-appointment-privacy.php:12
+#: includes/class-wc-appointment-privacy.php:64
+#: includes/class-wc-appointments-customize.php:106
+#: includes/class-wc-appointments-init.php:53
+#: includes/class-wc-appointments-init.php:208
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:123
+msgid "Appointments"
+msgstr "Rezervacije"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:51
+msgid "The staff has already been assigned to this product"
+msgstr "Osebje je že dodeljeno temu izdelku"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:66
+msgid "Unable to add staff"
+msgstr "Ni mogoče dodati osebja"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:97
+#: includes/admin/class-wc-appointments-admin-ajax.php:115
+msgid "Unable to add product"
+msgstr "Ni mogoče dodati izdelka"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:103
+msgid "The product has already been assigned to this staff"
+msgstr "Izdelek je bil že dodeljen temu osebju"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:125
+#: includes/admin/class-wc-appointments-admin-ajax.php:193
+msgid "Reload the page and try again."
+msgstr "Znova naložite stran in poskusite znova."
+
+#. translators: %1$s: date format, %2$s: time format
+#. translators: '%1$s: date format, '%2$s: time format
+#: includes/admin/class-wc-appointments-admin-ajax.php:166
+#: includes/admin/class-wc-appointments-admin-settings.php:445
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:120
+msgid "%1$s, %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: %1$s: link to staff rules, %2$s: sync text
+#. translators: %1$s: link to global rules, %2$s: sync text
+#: includes/admin/class-wc-appointments-admin-ajax.php:170
+#: includes/admin/class-wc-appointments-admin-ajax.php:173
+msgid "check synced events"
+msgstr "preveri sinhronizirane dogodke"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:317
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nimate dovolj pravic za dostop do te strani."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:320
+msgid "You have taken too long. Please go back and retry."
+msgstr "Predolgo je trajalo. Pojdite nazaj in poskusite znova."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:357
+msgid "This appointment is unavailable."
+msgstr "Ta rezervacija ni na voljo."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:456
+msgid "Please enter a valid date."
+msgstr "Vnesite veljaven datum."
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:541
+msgid "No slots available."
+msgstr "Terminov ni na voljo."
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:314
+#: includes/admin/views/html-appointment-availability-fields.php:78
+msgid "Google Recurring Event"
+msgstr "Ponavljajoči se dogodek v Googlu"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:316
+#: includes/admin/views/html-appointment-availability-fields.php:83
+msgid "Google Event"
+msgstr "Google Dogodek"
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:321
+#: includes/admin/views/html-appointment-availability-fields.php:142
+msgid "Repeating "
+msgstr "Ponavljajoče se "
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:326
+#: includes/admin/views/html-appointment-availability-fields.php:147
+msgid ", except "
+msgstr ", razen "
+
+#: includes/admin/class-wc-appointments-admin-calendar.php:377
+msgid "View / Edit"
+msgstr "Prikaz / Urejanje"
+
+#: includes/admin/class-wc-appointments-admin-exporters.php:38
+msgid "Appointment Export"
+msgstr "Izvoz rezervacij"
+
+#: includes/admin/class-wc-appointments-admin-exporters.php:114
+msgid "Insufficient privileges to export appointments."
+msgstr "Ni dovolj pravic za izvoz rezervacij."
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:49
+msgid "Ready to start accepting appointments?"
+msgstr "Ste pripravljeni za rezervacije terminov?"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:53
+#: includes/admin/views/html-add-appointment-page-2.php:10
+#: includes/admin/views/html-add-appointment-page-2.php:50
+#: includes/admin/views/html-add-appointment-page.php:6
+#: includes/admin/views/html-calendar-day.php:2
+#: includes/admin/views/html-calendar-dialog-add.php:6
+#: includes/admin/views/html-calendar-dialog-add.php:46
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-staff.php:2
+#: includes/admin/views/html-calendar-week.php:2
+#: includes/class-wc-appointments-init.php:56
+msgid "Add New Appointment"
+msgstr "Dodaj novo rezervacijo"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:54
+msgid "Add Appointable Product"
+msgstr "Dodaj izdelek za rezervacije"
+
+#. translators: %d: product ID.
+#: includes/admin/class-wc-appointments-admin-list-table.php:81
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:124
+#: includes/class-wc-appointments-init.php:51
+#: includes/class-wc-appointments-init.php:54
+#: templates/myaccount/appointments.php:38
+#: templates/myaccount/appointments.php:49
+msgid "Appointment"
+msgstr "Rezervacija"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:125
+#: includes/admin/views/html-calendar-dialog.php:142
+#: includes/class-wc-appointments-gcal.php:825
+#: templates/myaccount/appointments.php:39
+#: templates/myaccount/appointments.php:73
+#: templates/order/appointment-summary-list.php:32
+msgid "When"
+msgstr "Kdaj"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:126
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:264
+#: includes/admin/views/html-add-appointment-page.php:26
+#: includes/admin/views/html-calendar-dialog-add.php:12
+#: includes/admin/views/html-calendar-dialog.php:132
+#: includes/class-wc-appointments-gcal.php:819
+#: includes/compatibility/class-wc-product-data-store-cpt.php:81
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:14
+#: templates/emails/customer-appointment-confirmed.php:86
+msgid "Product"
+msgstr "Izdelek"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:127
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:343
+#: includes/admin/views/html-calendar-dialog.php:152
+#: includes/export/class-wc-appointment-csv-exporter.php:587
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:45
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:60
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:364
+msgid "Add-ons"
+msgstr "Dodatna polja"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:128
+#: includes/admin/class-wc-appointments-admin.php:383
+#: includes/admin/views/html-appointment-export.php:100
+#: includes/admin/views/html-appointment-staff.php:46
+#: includes/admin/views/html-calendar-dialog-add.php:18
+#: includes/admin/views/html-calendar-dialog.php:137
+#: includes/admin/views/html-calendar-nav.php:111
+#: includes/class-wc-appointments-ics-exporter.php:207
+msgid "Staff"
+msgstr "Osebje"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:129
+#: templates/myaccount/appointments.php:87
+msgid "Actions"
+msgstr "Možnosti"
+
+#. translators: %1$s: Order link, %2$d: Order ID, %3$s: Order status
+#: includes/admin/class-wc-appointments-admin-list-table.php:177
+msgid "Order #%2$d"
+msgstr "Naročilo #%2$d"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:240
+msgid "View"
+msgstr "Prikaz"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:248
+msgid "Confirm"
+msgstr "Potrdi"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:331
+#: includes/admin/views/html-appointment-export.php:46
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:300
+msgid "Start Date"
+msgstr "Začetni datum"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:334
+#: includes/admin/views/html-appointment-export.php:64
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:301
+msgid "End Date"
+msgstr "Končni datum"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:356
+#: includes/admin/views/html-calendar-nav.php:18
+msgid "Filter by product"
+msgstr "Razvrsti po izdelkih"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:381
+msgid "All staff"
+msgstr "Vso osebje"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:517
+msgid "All"
+msgstr "Vse"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:638
+msgid "Confirm appointments"
+msgstr "Potrdi rezervacije"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:639
+msgid "Unconfirm appointments"
+msgstr "Odstrani potrditev rezervacij"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:640
+msgid "Cancel appointments"
+msgstr "Prekliči rezervacije"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:641
+msgid "Mark appointments as paid"
+msgstr "Označi rezervacije ko plačane"
+
+#: includes/admin/class-wc-appointments-admin-list-table.php:642
+msgid "Mark appointments as unpaid"
+msgstr "Označi rezervacije kot neplačane"
+
+#. translators: %s: number of appointment statuses change
+#: includes/admin/class-wc-appointments-admin-list-table.php:668
+msgid "Appointment status changed."
+msgid_plural "%s appointment statuses changed."
+msgstr[0] "Stanje rezervacije se je spremenilo."
+msgstr[1] "Stanje %s rezervacij se je spremenilo."
+msgstr[2] "Stanje %s rezervacij se je spremenilo."
+msgstr[3] "Stanje %s rezervacij se je spremenilo."
+
+#: includes/admin/class-wc-appointments-admin-menus.php:103
+#: includes/admin/class-wc-appointments-admin-menus.php:104
+#: includes/admin/class-wc-appointments-admin-menus.php:180
+#: includes/class-wc-appointments-init.php:55
+#: includes/class-wc-appointments-init.php:229
+msgid "Add New"
+msgstr "Dodaj novo"
+
+#: includes/admin/class-wc-appointments-admin-menus.php:116
+#: includes/admin/class-wc-appointments-admin-menus.php:117
+#: includes/admin/class-wc-appointments-admin-menus.php:191
+#: includes/admin/views/html-calendar-day.php:2
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-staff.php:2
+#: includes/admin/views/html-calendar-week.php:2
+#: includes/class-wc-appointments-init.php:249
+msgid "Calendar"
+msgstr "Koledar"
+
+#. translators: %1$s: number of appointments, %2$s: number of appointments
+#: includes/admin/class-wc-appointments-admin-report-dashboard.php:52
+msgid "<strong>%s appointment</strong> new this month"
+msgid_plural "<strong>%s appointments</strong> new this month"
+msgstr[0] "<strong>%s rezervacija</strong> ta mesec"
+msgstr[1] "<strong>%s rezervaciji</strong> ta mesec"
+msgstr[2] "<strong>%s rezervacije</strong> ta mesec"
+msgstr[3] "<strong>%s rezervacij</strong> ta mesec"
+
+#. translators: %1$s: number of appointments that require confirmation, %2$s:
+#. number of appointments that require confirmation
+#: includes/admin/class-wc-appointments-admin-report-dashboard.php:60
+msgid "<strong>%s appointment</strong> requires confirmation"
+msgid_plural "<strong>%s appointments</strong> require confirmation"
+msgstr[0] "<strong>%s rezervacija</strong> zahteva potrditev"
+msgstr[1] "<strong>%s rezervaciji</strong> zahteva potrditev"
+msgstr[2] "<strong>%s rezervacije</strong> zahteva potrditev"
+msgstr[3] "<strong>%s rezervacij</strong> zahteva potrditev"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:37
+msgid "Global Availability"
+msgstr "Globalna razpoložljivost"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:38
+#: includes/class-wc-appointments-gcal.php:236
+#: includes/class-wc-appointments-gcal.php:238
+#: includes/class-wc-appointments-gcal.php:244
+#: includes/class-wc-appointments-gcal.php:246
+msgid "Google Calendar"
+msgstr "Google Koledar"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:205
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:35
+msgid "Google Calendar Sync"
+msgstr "Sinhronizacija Google koledarja"
+
+#. translators: %s: link to google calendar sync tutorial
+#: includes/admin/class-wc-appointments-admin-settings.php:208
+msgid "To use this integration go through %s instructions."
+msgstr "Če želite uporabiti to integracijo, sledite %s navodilom."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:208
+msgid "Google Calendar Integration"
+msgstr "Integracija Google koledarja"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:212
+msgid "Client ID"
+msgstr "ID odjemalca (Client ID)"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:213
+msgid "Your Google Client ID."
+msgstr "ID vašega Googlovega odjemalca."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:225
+msgid "Client Secret"
+msgstr "Skrivnostni ključ odjemalca (Client Secret)"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:226
+msgid "Your Google Client Secret."
+msgstr "Skrivnostni ključ vašega Google Odjemalca."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:238
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:62
+msgid "Authorization"
+msgstr "Avtorizacija"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:242
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:83
+msgid "Calendar ID"
+msgstr "ID koledarja"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:247
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:102
+msgid "Sync Preference"
+msgstr "Način sinhronizacije"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:248
+msgid "Choose the sync preference."
+msgstr "Izberite nastavitev sinhronizacije."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:250
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:105
+msgid "One way - from Store to Google"
+msgstr "Enosmerna sinhronizacija - od Spletnega mesta do Googla"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:251
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:106
+msgid "Two way - between Store and Google"
+msgstr "Dvosmerna sinhronizacija - med Spletnim mestom in Googlom"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:260
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:112
+msgid "Last Sync"
+msgstr "Zadnja sinhronizacija"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:268
+msgid "Testing"
+msgstr "Testiranje"
+
+#. translators: %s: log file name string
+#: includes/admin/class-wc-appointments-admin-settings.php:271
+msgid "Log Google Calendar events, such as API requests, inside %s"
+msgstr ""
+"Shranite interakcijo z Google Koledarjem, kot so zahteve API, znotraj %s"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:275
+msgid "Debug Log"
+msgstr "Razhroščevalni dnevnik"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:276
+msgid "Enable logging"
+msgstr "Omogočite zapisovanje v dnevnik - angl. logging"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:338
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:65
+msgid "Connect with Google"
+msgstr "Poveži z Googlom"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:340
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:67
+msgid "Successfully authenticated."
+msgstr "Uspešna avtorizacija."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:341
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:69
+msgid "Disconnect"
+msgstr "Odjavi"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:343
+msgid "Please fill out all required fields from above."
+msgstr "Izpolnite vsa zahtevana polja zgoraj."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:383
+msgid ""
+"Your Google Calendar ID. Leave empty if you only want to sync on staff level."
+msgstr ""
+"Vaš ID Google koledarja. Pustite prazno, če želite sinhronizacijo samo na "
+"ravni osebja."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:389
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:87
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:159
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:219
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:244
+#: includes/admin/views/html-add-appointment-page.php:103
+#: includes/admin/views/html-appointment-availability-fields.php:303
+#: includes/admin/views/html-appointment-staff-fields.php:61
+#: includes/admin/views/html-appointment-staff-member.php:53
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:140
+#: includes/emails/class-wc-email-admin-new-appointment.php:205
+#: includes/emails/class-wc-email-appointment-cancelled.php:118
+#: includes/emails/class-wc-email-appointment-confirmed.php:134
+#: includes/emails/class-wc-email-appointment-follow-up.php:144
+#: includes/emails/class-wc-email-appointment-reminder.php:144
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:322
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:334
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:27
+msgid "N/A"
+msgstr "Ni na voljo"
+
+#: includes/admin/class-wc-appointments-admin-settings.php:449
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:124
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:238
+#: includes/admin/views/html-settings-global-availability.php:105
+msgid "No synced rules."
+msgstr "Ni sinhroniziranih pravil."
+
+#: includes/admin/class-wc-appointments-admin-settings.php:452
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:127
+msgid "Sync Manually"
+msgstr "Ročno sinhroniziraj"
+
+#. translators: %s: link to google calendar sync settings
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:75
+msgid ""
+"Please configure <a href=\"%s\">Google Calendar Sync settings</a> first."
+msgstr ""
+"Najprej preverite <a href=\"%s\">Nastavitev sinhronizacije Google Koledarja</"
+"a>."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:134
+msgid "Staff details"
+msgstr "Podrobnosti o osebju"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:184
+#: includes/admin/views/html-appointment-availability.php:67
+msgid "Custom Availability"
+msgstr "Razpoložljivost po meri"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:191
+msgid "Staff rules"
+msgstr "Pravila osebja"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:194
+#: includes/admin/views/html-settings-global-availability.php:54
+msgid "Synced rules"
+msgstr "Sinhronizirana pravila"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:201
+#: includes/admin/views/html-appointment-availability.php:97
+#: includes/admin/views/html-appointment-general.php:43
+#: includes/admin/views/html-settings-global-availability.php:61
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:66
+msgid "Type"
+msgstr "Tip"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:202
+#: includes/admin/views/html-appointment-availability.php:98
+#: includes/admin/views/html-appointment-general.php:44
+#: includes/admin/views/html-settings-global-availability.php:62
+msgid "Range"
+msgstr "Razpon"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:204
+#: includes/admin/views/html-settings-global-availability.php:64
+#: includes/class-wc-appointments-widget-availability.php:29
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:114
+msgid "Title"
+msgstr "Naziv"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:205
+#: includes/admin/views/html-appointment-availability.php:101
+#: includes/admin/views/html-settings-global-availability.php:65
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:34
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:15
+msgid "Priority"
+msgstr "Prioriteta"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:205
+#: includes/admin/views/html-appointment-availability.php:101
+#: includes/admin/views/html-settings-global-availability.php:65
+msgid ""
+"Rules with lower priority numbers will override rules with a higher priority "
+"(e.g. 9 overrides 10 ). By using priority numbers you can execute rules in "
+"different orders for all three levels: Global, Product and Staff rules."
+msgstr ""
+"Pravila z nižjimi prednostnimi številkami bodo preglasovala pravila z višjo "
+"prednostjo (npr. 9 preglasi 10 ). S prednostnimi številkami lahko pravila v "
+"različnih naročilih izvršite za vse tri ravni: globalna pravila, pravila "
+"izdelkov in osebja."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:206
+#: includes/admin/views/html-appointment-availability.php:102
+#: includes/admin/views/html-settings-global-availability.php:66
+msgid "Available"
+msgstr "Razpoložljivost"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:206
+#: includes/admin/views/html-appointment-availability.php:102
+#: includes/admin/views/html-settings-global-availability.php:66
+msgid ""
+"If not available, users won't be able to choose slots in this range for "
+"their appointment."
+msgstr ""
+"Če ni na voljo, uporabniki ne bodo mogli izbrati reže v tem razponu za svojo "
+"rezervacijo."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:219
+#: includes/admin/views/html-appointment-availability.php:120
+#: includes/admin/views/html-appointment-general.php:64
+#: includes/admin/views/html-settings-global-availability.php:85
+msgid "Add Rule"
+msgstr "Dodaj pravilo"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:255
+msgid "Assigned Products"
+msgstr "Dodeljeni izdelki"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:265
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:278
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:165
+#: templates/emails/customer-appointment-confirmed.php:88
+msgid "Price"
+msgstr "Cena"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:266
+#: includes/admin/views/html-appointment-availability.php:100
+#: includes/admin/views/html-appointment-inventory.php:19
+#: includes/admin/views/html-appointment-staff-member.php:43
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:281
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:76
+#: templates/emails/customer-appointment-confirmed.php:87
+msgid "Quantity"
+msgstr "Količina"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:267
+#: includes/admin/views/html-appointment-staff-member.php:26
+msgid "Additional Cost"
+msgstr "Dodatni strošek"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:267
+msgid ""
+"Additional cost for this staff, which will be calculated into overall "
+"product cost."
+msgstr ""
+"Dodatni stroški za to osebje, ki se izračunajo v skupne stroške izdelka."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:268
+msgid "Staff Quantity"
+msgstr "Količina za osebje"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:268
+#: includes/admin/views/html-appointment-availability.php:100
+msgid ""
+"The maximum number of appointments per slot. Overrides product quantity."
+msgstr ""
+"Največje število rezervacij na časovni termin. Preglasi količino izdelka."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:289
+msgid "Assign Product"
+msgstr "Dodeli izdelek"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:290
+#: includes/admin/views/html-add-appointment-page.php:29
+#: includes/admin/views/html-calendar-dialog-add.php:14
+msgid "Select an appointable product..."
+msgstr "Izberite izdelek za rezervacije..."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:305
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:332
+msgid "Timezone"
+msgstr "Časovni pas"
+
+#. translators: %s: UTC abbreviation
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:343
+msgid ""
+"Choose either a city in the same timezone as you or a %s (Coordinated "
+"Universal Time) time offset."
+msgstr ""
+"Izberite mesto v istem časovnem območju kot ste vi ali %s (usklajeni "
+"univerzalni čas UTC)."
+
+#. translators: %s: UTC time.
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:354
+msgid "Universal time is %s."
+msgstr "Univerzalni čas je %s."
+
+#. translators: %s: Local time.
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:367
+msgid "Local time is %s."
+msgstr "Lokalni čas je %s."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:383
+msgid "This timezone is currently in daylight saving time."
+msgstr "To časovno območje je trenutno v poletnem času."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:385
+msgid "This timezone is currently in standard time."
+msgstr "To časovno območje je trenutno v zimskem času."
+
+#. translators: %s: Date and time.
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:398
+msgid "Daylight saving time begins on: %s."
+msgstr "Poletni čas se začne na: %s."
+
+#. translators: %s: Date and time.
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:400
+msgid "Standard time begins on: %s."
+msgstr "Zimski čas se začne na: %s."
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:403
+#: templates/appointment-form/date-picker.php:39
+#: templates/appointment-form/datetime-picker.php:40
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:403
+msgid "g:i a"
+msgstr "g:i a"
+
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:406
+msgid "This timezone does not observe daylight saving time."
+msgstr "To časovno območje ne upošteva poletnega časa."
+
+#: includes/admin/class-wc-appointments-admin.php:391
+msgid "Availability"
+msgstr "Razpoložljivost"
+
+#: includes/admin/class-wc-appointments-admin.php:462
+#: includes/admin/class-wc-appointments-admin.php:465
+#: includes/admin/class-wc-appointments-admin.php:467
+msgid "Appointment updated."
+msgstr "Rezervacija posodobljena."
+
+#: includes/admin/class-wc-appointments-admin.php:463
+msgid "Custom field updated."
+msgstr "Polje po meri posodobljeno."
+
+#: includes/admin/class-wc-appointments-admin.php:464
+msgid "Custom field deleted."
+msgstr "Polje po meri je izbrisano."
+
+#: includes/admin/class-wc-appointments-admin.php:468
+msgid "Appointment saved."
+msgstr "Rezervacija shranjena."
+
+#: includes/admin/class-wc-appointments-admin.php:469
+msgid "Appointment submitted."
+msgstr "Rezervacija posredovana."
+
+#: includes/admin/class-wc-appointments-admin.php:616
+#: includes/class-wc-appointment-privacy.php:80
+#: includes/integrations/class-wc-appointments-integration-wcpbc.php:28
+msgid "Appointable product"
+msgstr "Izdelek za rezervacije"
+
+#: includes/admin/class-wc-appointments-admin.php:687
+#: includes/class-wc-appointments-init.php:502
+msgid "Are you sure?"
+msgstr "Ste prepričani?"
+
+#: includes/admin/class-wc-appointments-admin.php:688
+msgid "minutes"
+msgstr "minute"
+
+#: includes/admin/class-wc-appointments-admin.php:689
+msgid "hours"
+msgstr "ure"
+
+#: includes/admin/class-wc-appointments-admin.php:690
+msgid "days"
+msgstr "dnevi"
+
+#: includes/admin/class-wc-appointments-admin.php:699
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:36
+msgid "Export"
+msgstr "Izvozi"
+
+#: includes/admin/class-wc-appointments-admin.php:783
+msgid ""
+"<p><strong>Your theme (%1$s) contains outdated copies of some WooCommerce "
+"Appointments template files.</strong> These files may need updating to "
+"ensure they are compatible with the current version of WooCommerce "
+"Appointments. You can see which files are affected from the <a href=\"%2$s"
+"\">system status page</a>. If in doubt, check with the author of the theme."
+"<p><p class=\"submit\"><a class=\"button-primary\" href=\"%3$s\" target="
+"\"_blank\">Learn More About Templates</a></p>"
+msgstr ""
+"<p>Vaša tema (%1$s) vsebuje zastarele kopije nekaterih <strong> %1$s predlog "
+"za WooCommerce Rezervacije.</strong> Te datoteke bodo morda morale biti "
+"posodobljene, da bodo združljive s trenutno različico WooCommerce "
+"Rezervacij. Na <a href=\"%2$s\">strani stanja sistema</a> lahko vidite, "
+"katere datoteke so prizadete. Če ste v dvomu, preverite pri avtorju te teme."
+"<p><p class=\"submit\"><a class=\"button-primary\" href=\"%3$s\" target="
+"\"_blank\">Več o predlogah</a></p>"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-customer.php:46
+msgid "Customer details"
+msgstr "Podatki o stranki"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-customer.php:74
+msgid "Email:"
+msgstr "E-pošta:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-customer.php:80
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-customer.php:86
+msgid "View User"
+msgstr "Profil uporabnika"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:53
+msgid "Appointment Details"
+msgstr "Podrobnosti rezervacije"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:66
+msgid ""
+"This appointment is scheduled over 2 years into the future. Please ensure "
+"this is correct."
+msgstr ""
+"Ta rezervacija je načrtovana več kot 2 letih vnaprej. Prepričajte se, da je "
+"to pravilno."
+
+#. translators: %s: maximum appointable date
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:74
+msgid ""
+"This appointment is scheduled over the products allowed max appointment date "
+"(%s). Please ensure this is correct."
+msgstr ""
+"Ta rezervacija je opravljena preko maksimalnega datuma (%s), ki je na voljo. "
+"Prepričajte se, da je to pravilno."
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:79
+msgid "This appointment has an end date set before the start date."
+msgstr "Ta rezervacija ima nastavljen končni datum pred začetnim datumom."
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:83
+msgid ""
+"It appears the appointment product associated with this appointment has been "
+"removed."
+msgstr "Izgleda, da je bil izdelek povezan s to rezervacijo, odstranjen."
+
+#. translators: %s: product type
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:89
+msgid ""
+"This appointment is missing a required add-on (product type: %s). Some "
+"information is shown below but might be incomplete. Please install the "
+"missing add-on through the plugins screen."
+msgstr ""
+"Tej rezervaciji manjka zahtevan vtičnik (vrsta izdelka: %s). Nekateri "
+"podatki so prikazani spodaj, vendar so morda nepopolni. Namestite manjkajoč "
+"vtičnik prek zaslona vtičnikov."
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:117
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#. translators: %s: appointment ID
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:133
+#: includes/class-wc-appointments-gcal.php:807
+#: templates/order/admin/appointment-display.php:32
+#: templates/order/appointment-display.php:34
+msgid "Appointment #%s"
+msgstr "Rezervacija #%s"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:134
+msgid "View on calendar"
+msgstr "Ogled na koledarju"
+
+#. translators: %s: href to order ID
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:140
+msgid "Linked to Order %s"
+msgstr "Povezano z naročilom %s"
+
+#. translators: %s: appointments addon title
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:145
+msgid "Appointment type: %s"
+msgstr "Vrsta rezervacije: %s"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:155
+msgid "General Details"
+msgstr "Splošne podrobnosti"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:158
+msgid "Order ID:"
+msgstr "ID naročila:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:167
+msgid "Customer:"
+msgstr "Stranka:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:184
+msgid "Customer Status:"
+msgstr "Status stranke:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:199
+msgid "Appointment Status:"
+msgstr "Status sestanka:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:213
+msgid "Specification"
+msgstr "Dodatne informacije"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:218
+msgid "Product:"
+msgstr "Izdelek:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:243
+msgid "Staff:"
+msgstr "Osebje:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:258
+msgid "Parent Appointment ID"
+msgstr "ID nadrejene rezervacije"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:267
+msgid "Qty"
+msgstr "Količina"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:277
+msgid "Date/Time"
+msgstr "Datum/Ura"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:282
+msgid "All Day:"
+msgstr "Ves dan:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:283
+msgid "Check this box if the appointment lasts all day."
+msgstr "Potrdite to polje, če sestanek traja ves dan."
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:290
+#: includes/class-wc-appointments-widget-availability.php:120
+msgid "Start Date:"
+msgstr "Datum začetka:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:299
+msgid "Start Time:"
+msgstr "Začetni čas:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:308
+#: includes/class-wc-appointments-widget-availability.php:125
+msgid "End Date:"
+msgstr "Datum konca:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:317
+msgid "End Time:"
+msgstr "Končni čas:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-data.php:331
+msgid "Customer Timezone:"
+msgstr "Časovno območje kupca:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:46
+msgid "Save"
+msgstr "Shrani"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:64
+msgid "Created on:"
+msgstr "Ustvarjeno dne:"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:78
+msgid "h"
+msgstr "ur"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:88
+msgid "m"
+msgstr "m"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:98
+msgid "Track changes"
+msgstr "Sledenje spremembam"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:100
+msgid "Private note"
+msgstr "Zasebna opomba"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:101
+msgid "Note to customer"
+msgstr "Opomba stranki"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:103
+msgid "When appointment changes, add a private note or send a note to customer"
+msgstr ""
+"Ko se rezervacija spremeni, dodajte zasebno opombo ali pošljite opombo "
+"stranki"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:109
+msgid "Move to Trash"
+msgstr "Premakni v smetnjak"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:116
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:11
+msgid "Update"
+msgstr "Posodobi"
+
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:117
+msgid "Save/update the appointment"
+msgstr "Shrani/posodobi rezervacijo"
+
+#. translators: %1$d: appointment id, %2$s: old appointment time, %3$s: new
+#. appointment time
+#: includes/admin/meta-boxes/class-wc-appointment-meta-box-save.php:154
+msgid "Appointment #%1$d has been updated."
+msgstr "Rezervacija #%1$d je bila posodobljena."
+
+#: includes/admin/views/html-add-appointment-page-2.php:19
+msgid "Appointment Data"
+msgstr "Podatki rezervacije"
+
+#: includes/admin/views/html-add-appointment-page.php:8
+msgid ""
+"You can add a new appointment for a customer here. Created orders will be "
+"marked as pending payment."
+msgstr ""
+"Tukaj lahko dodate novo rezervacijo za stranko. Ustvarjena naročila bodo "
+"označena kot neplačana."
+
+#: includes/admin/views/html-add-appointment-page.php:17
+#: includes/class-wc-appointments-gcal.php:814
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:299
+msgid "Customer"
+msgstr "Stranka"
+
+#: includes/admin/views/html-add-appointment-page.php:20
+#: includes/admin/views/html-calendar-dialog.php:96
+#: includes/data-objects/class-wc-appointment.php:1218
+#: includes/data-objects/class-wc-appointment.php:1219
+msgid "Guest"
+msgstr "Gost"
+
+#. translators: %s: Order view link
+#: includes/admin/views/html-add-appointment-page.php:34
+#: templates/emails/customer-appointment-confirmed.php:75
+#: templates/myaccount/appointments.php:59
+#: templates/myaccount/appointments.php:65
+msgid "Order"
+msgstr "Naročilo"
+
+#: includes/admin/views/html-add-appointment-page.php:94
+msgid "Create a new order"
+msgstr "Ustvari novo naročilo"
+
+#: includes/admin/views/html-add-appointment-page.php:95
+msgid ""
+"Please note - appointment won't be active until order is processed/completed."
+msgstr ""
+"Prosimo, upoštevajte - rezervacija ne bo aktivna, dokler naročilo ne bo "
+"obdelano/zaključeno."
+
+#: includes/admin/views/html-add-appointment-page.php:101
+msgid "Assign to an existing order"
+msgstr "Dodeli obstoječemu naročilu"
+
+#: includes/admin/views/html-add-appointment-page.php:111
+msgid "Don't create an order for this appointment."
+msgstr "Ne ustvarite naročila za to rezervacijo."
+
+#: includes/admin/views/html-add-appointment-page.php:121
+#: includes/class-wc-appointments-init.php:470
+#: includes/class-wc-appointments-widget-availability.php:43
+#: templates/myaccount/appointments.php:108
+msgid "Next"
+msgstr "Naprej"
+
+#: includes/admin/views/html-appointment-availability-fields.php:15
+#: includes/admin/views/html-appointment-pricing-fields.php:8
+msgid "January"
+msgstr "Januar"
+
+#: includes/admin/views/html-appointment-availability-fields.php:16
+#: includes/admin/views/html-appointment-pricing-fields.php:9
+msgid "February"
+msgstr "Februar"
+
+#: includes/admin/views/html-appointment-availability-fields.php:17
+#: includes/admin/views/html-appointment-pricing-fields.php:10
+msgid "March"
+msgstr "Marec"
+
+#: includes/admin/views/html-appointment-availability-fields.php:18
+#: includes/admin/views/html-appointment-pricing-fields.php:11
+msgid "April"
+msgstr "April"
+
+#: includes/admin/views/html-appointment-availability-fields.php:19
+#: includes/admin/views/html-appointment-pricing-fields.php:12
+msgid "May"
+msgstr "Maj"
+
+#: includes/admin/views/html-appointment-availability-fields.php:20
+#: includes/admin/views/html-appointment-pricing-fields.php:13
+msgid "June"
+msgstr "Junij"
+
+#: includes/admin/views/html-appointment-availability-fields.php:21
+#: includes/admin/views/html-appointment-pricing-fields.php:14
+msgid "July"
+msgstr "Julij"
+
+#: includes/admin/views/html-appointment-availability-fields.php:22
+#: includes/admin/views/html-appointment-pricing-fields.php:15
+msgid "August"
+msgstr "Avgust"
+
+#: includes/admin/views/html-appointment-availability-fields.php:23
+#: includes/admin/views/html-appointment-pricing-fields.php:16
+msgid "September"
+msgstr "September"
+
+#: includes/admin/views/html-appointment-availability-fields.php:24
+#: includes/admin/views/html-appointment-pricing-fields.php:17
+msgid "October"
+msgstr "Oktober"
+
+#: includes/admin/views/html-appointment-availability-fields.php:25
+#: includes/admin/views/html-appointment-pricing-fields.php:18
+msgid "November"
+msgstr "November"
+
+#: includes/admin/views/html-appointment-availability-fields.php:26
+#: includes/admin/views/html-appointment-pricing-fields.php:19
+msgid "December"
+msgstr "December"
+
+#: includes/admin/views/html-appointment-availability-fields.php:30
+#: includes/admin/views/html-appointment-pricing-fields.php:23
+msgid "Monday"
+msgstr "Ponedeljek"
+
+#: includes/admin/views/html-appointment-availability-fields.php:31
+#: includes/admin/views/html-appointment-pricing-fields.php:24
+msgid "Tuesday"
+msgstr "Torek"
+
+#: includes/admin/views/html-appointment-availability-fields.php:32
+#: includes/admin/views/html-appointment-pricing-fields.php:25
+msgid "Wednesday"
+msgstr "Sreda"
+
+#: includes/admin/views/html-appointment-availability-fields.php:33
+#: includes/admin/views/html-appointment-pricing-fields.php:26
+msgid "Thursday"
+msgstr "Četrtek"
+
+#: includes/admin/views/html-appointment-availability-fields.php:34
+#: includes/admin/views/html-appointment-pricing-fields.php:27
+msgid "Friday"
+msgstr "Petek"
+
+#: includes/admin/views/html-appointment-availability-fields.php:35
+#: includes/admin/views/html-appointment-pricing-fields.php:28
+msgid "Saturday"
+msgstr "Sobota"
+
+#: includes/admin/views/html-appointment-availability-fields.php:36
+#: includes/admin/views/html-appointment-pricing-fields.php:29
+msgid "Sunday"
+msgstr "Nedelja"
+
+#. translators: %s: week number
+#: includes/admin/views/html-appointment-availability-fields.php:40
+#: includes/admin/views/html-appointment-pricing-fields.php:34
+msgid "Week %s"
+msgstr "Teden %s"
+
+#: includes/admin/views/html-appointment-availability-fields.php:93
+#: includes/admin/views/html-appointment-pricing-fields.php:56
+msgid "Date range"
+msgstr "Datumski razpon"
+
+#: includes/admin/views/html-appointment-availability-fields.php:94
+msgid "Date range with time"
+msgstr "Datumski razpon s časom"
+
+#: includes/admin/views/html-appointment-availability-fields.php:95
+#: includes/admin/views/html-appointment-pricing-fields.php:57
+msgid "Range of months"
+msgstr "Razpon mesecev"
+
+#: includes/admin/views/html-appointment-availability-fields.php:96
+#: includes/admin/views/html-appointment-pricing-fields.php:58
+msgid "Range of weeks"
+msgstr "Razpon tednov"
+
+#: includes/admin/views/html-appointment-availability-fields.php:97
+#: includes/admin/views/html-appointment-pricing-fields.php:59
+msgid "Range of days"
+msgstr "Razpon dni"
+
+#: includes/admin/views/html-appointment-availability-fields.php:98
+#: includes/admin/views/html-appointment-pricing-fields.php:62
+msgid "Time Ranges"
+msgstr "Časovni razponi"
+
+#: includes/admin/views/html-appointment-availability-fields.php:99
+#: includes/admin/views/html-appointment-pricing-fields.php:63
+msgid "Recurring Time (all week)"
+msgstr "Ponavljajoči se čas (ves teden)"
+
+#: includes/admin/views/html-appointment-availability-fields.php:100
+#: includes/admin/views/html-appointment-pricing-fields.php:64
+msgid "Recurring Time (date range)"
+msgstr "Ponavljajoči se čas (datumski razpon)"
+
+#: includes/admin/views/html-appointment-availability-fields.php:137
+msgid "to"
+msgstr "do"
+
+#: includes/admin/views/html-appointment-availability-fields.php:162
+msgid "Invalid recurring rule"
+msgstr "Neveljavno ponavljajoče se pravilo"
+
+#: includes/admin/views/html-appointment-availability-fields.php:324
+#: includes/admin/views/html-appointment-availability-fields.php:329
+msgid "No"
+msgstr "Ne"
+
+#: includes/admin/views/html-appointment-availability-fields.php:330
+msgid "Yes"
+msgstr "Da"
+
+#: includes/admin/views/html-appointment-availability.php:11
+msgid "Availability Check"
+msgstr "Preverjanje razpoložljivosti"
+
+#: includes/admin/views/html-appointment-availability.php:12
+msgid ""
+"By default availability per each slot in range is checked. You can also "
+"check availability for starting slot only."
+msgstr ""
+"Privzeto se preveri razpoložljivost za vsak termin posebej. Preverite lahko "
+"tudi razpoložljivost samo za začetni termin."
+
+#: includes/admin/views/html-appointment-availability.php:16
+msgid "All slots in availability range"
+msgstr "Vsi termini v razponu razpoložljivosti"
+
+#: includes/admin/views/html-appointment-availability.php:17
+msgid "The starting slot only"
+msgstr "Samo začetni termin"
+
+#: includes/admin/views/html-appointment-availability.php:25
+msgid "Auto-select?"
+msgstr "Samodejni izbor?"
+
+#: includes/admin/views/html-appointment-availability.php:27
+msgid ""
+"Check this box if you want to auto-select first available day and/or time."
+msgstr ""
+"Potrdite to polje, če želite samodejno izbrati prvi dan in/ali čas, ki je na "
+"voljo."
+
+#: includes/admin/views/html-appointment-availability.php:35
+msgid "Restrict start days?"
+msgstr "Omejevanje začetnih dni v tednu?"
+
+#: includes/admin/views/html-appointment-availability.php:36
+msgid ""
+"Restrict appointments so that they can only start on certain days of the "
+"week. Does not affect availability."
+msgstr ""
+"Omejevanje rezervacij, tako da se lahko začnejo le v določenih dneh v tednu. "
+"Ne vpliva na pravila razpoložljivosti."
+
+#. translators: %s: a href to global availability setings
+#: includes/admin/views/html-appointment-availability.php:72
+msgid ""
+"Add custom availability rules to override <a href=\"%s\">global "
+"availability</a> for this appointment only."
+msgstr ""
+"Dodajte pravila za razpoložljivost po meri, da preglasite <a href=\"%s"
+"\">globalna pravila razpoložljivosti</a> samo za to rezervacijo."
+
+#: includes/admin/views/html-appointment-export.php:12
+#: includes/class-wc-appointments-init.php:219
+msgid "Export Appointments"
+msgstr "Izvoz rezervacij"
+
+#: includes/admin/views/html-appointment-export.php:18
+msgid "Export appointments to a CSV file"
+msgstr "Izvoz rezervacij v datoteko CSV"
+
+#: includes/admin/views/html-appointment-export.php:25
+msgid "Columns"
+msgstr "Stolpci"
+
+#: includes/admin/views/html-appointment-export.php:33
+msgid "Export all columns"
+msgstr "Izvozi vse stolpce"
+
+#: includes/admin/views/html-appointment-export.php:82
+msgid "Products"
+msgstr "Izdelki"
+
+#: includes/admin/views/html-appointment-export.php:91
+msgid "Export for all products"
+msgstr "Izvoz za vse izdelke"
+
+#: includes/admin/views/html-appointment-export.php:113
+msgid "Export for all staff"
+msgstr "Izvoz za vse osebje"
+
+#: includes/admin/views/html-appointment-export.php:126
+msgid "Export add-on fields?"
+msgstr "Izvozite dodatna polja?"
+
+#: includes/admin/views/html-appointment-export.php:130
+msgid "Yes, export all add-on fields"
+msgstr "Da, izvozite vsa dodatna polja"
+
+#: includes/admin/views/html-appointment-export.php:139
+msgid "Generate CSV"
+msgstr "Ustvari CSV"
+
+#: includes/admin/views/html-appointment-general.php:10
+msgid "Label instead of price?"
+msgstr "Besedilna oznaka namesto cene?"
+
+#: includes/admin/views/html-appointment-general.php:12
+msgid ""
+"Check this box if the appointment should display text label instead of fixed "
+"price amount."
+msgstr ""
+"Potrdite to polje, če naj rezervacija namesto zneska fiksne cene prikaže "
+"besedilno oznako."
+
+#: includes/admin/views/html-appointment-general.php:19
+msgid "Price Label"
+msgstr "Oznaka cene"
+
+#: includes/admin/views/html-appointment-general.php:20
+#: includes/data-objects/class-wc-product-appointment.php:108
+msgid "Price Varies"
+msgstr "Cena se razlikuje"
+
+#: includes/admin/views/html-appointment-general.php:23
+msgid "Show this label instead of fixed price amount."
+msgstr "Pokaži to oznako namesto zneska fiksne cene."
+
+#: includes/admin/views/html-appointment-general.php:30
+msgid "Custom pricing rules?"
+msgstr "Pravila določanja cen po meri?"
+
+#: includes/admin/views/html-appointment-general.php:32
+msgid "Check this box if the appointment has custom pricing rules."
+msgstr "Potrdite to polje, če ima sestanek pravila za določanje cen po meri."
+
+#: includes/admin/views/html-appointment-general.php:46
+msgid "Base cost"
+msgstr "Osnovni znesek"
+
+#: includes/admin/views/html-appointment-general.php:46
+msgid ""
+"Applied to the appointment as a whole. Must be inside range rules to be "
+"applied."
+msgstr ""
+"Velja za rezervacijo v celoti. Mora biti znotraj območja pravil v uporabi."
+
+#: includes/admin/views/html-appointment-general.php:47
+msgid "Slot cost"
+msgstr "Znesek termina"
+
+#: includes/admin/views/html-appointment-general.php:47
+msgid ""
+"Applied to each appointment slot separately. When appointment lasts for 2 "
+"days or more, this cost applies to each day in range separately."
+msgstr ""
+"Velja za vsak časovni termin posebej. Ko rezervacija traja 2 dni ali več, ta "
+"strošek velja za vsak dan v obsegu posebej."
+
+#: includes/admin/views/html-appointment-general.php:66
+msgid "All matching rules will be applied to the appointment."
+msgstr "Vsa pravila za ujemanje bodo uporabljena za rezervacijo."
+
+#: includes/admin/views/html-appointment-general.php:96
+#: includes/admin/views/html-appointment-pricing-fields.php:61
+#: includes/admin/views/html-calendar-dialog.php:147
+#: includes/class-wc-appointments-gcal.php:826
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:267
+#: includes/wc-appointments-functions.php:75
+#: templates/order/appointment-summary-list.php:35
+msgid "Duration"
+msgstr "Trajanje"
+
+#: includes/admin/views/html-appointment-general.php:99
+#: includes/admin/views/html-appointment-general.php:124
+#: includes/admin/views/html-appointment-general.php:140
+#: includes/admin/views/html-appointment-general.php:220
+#: includes/admin/views/html-appointment-general.php:247
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-notification-schedule.php:206
+msgid "Minute(s)"
+msgstr "Minute"
+
+#: includes/admin/views/html-appointment-general.php:100
+#: includes/admin/views/html-appointment-general.php:125
+#: includes/admin/views/html-appointment-general.php:141
+#: includes/admin/views/html-appointment-general.php:158
+#: includes/admin/views/html-appointment-general.php:179
+#: includes/admin/views/html-appointment-general.php:219
+#: includes/admin/views/html-appointment-general.php:246
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-notification-schedule.php:207
+msgid "Hour(s)"
+msgstr "Ure"
+
+#: includes/admin/views/html-appointment-general.php:101
+#: includes/admin/views/html-appointment-general.php:142
+#: includes/admin/views/html-appointment-general.php:159
+#: includes/admin/views/html-appointment-general.php:180
+#: includes/admin/views/html-appointment-general.php:218
+#: includes/admin/views/html-appointment-general.php:245
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-notification-schedule.php:208
+msgid "Day(s)"
+msgstr "Dni"
+
+#: includes/admin/views/html-appointment-general.php:102
+#: includes/admin/views/html-appointment-general.php:143
+#: includes/admin/views/html-appointment-general.php:161
+#: includes/admin/views/html-appointment-general.php:182
+#: includes/admin/views/html-appointment-general.php:217
+#: includes/admin/views/html-appointment-general.php:244
+msgid "Month(s)"
+msgstr "Meseci"
+
+#: includes/admin/views/html-appointment-general.php:104
+msgid "How long do you plan this appointment to last?"
+msgstr "Kako dolgo načrtujete, da bo ta rezervacija trajala?"
+
+#: includes/admin/views/html-appointment-general.php:121
+msgid "Interval"
+msgstr "Interval"
+
+#: includes/admin/views/html-appointment-general.php:127
+msgid ""
+"Select intervals when each appointment slot is available for scheduling."
+msgstr "Izberite intervale, ko je vsak termin za rezervacijo na voljo."
+
+#: includes/admin/views/html-appointment-general.php:137
+msgid "Padding Time"
+msgstr "Čas za pripravo"
+
+#: includes/admin/views/html-appointment-general.php:145
+msgid "Specify the padding time you need between appointments."
+msgstr "Določite čas za pripravo, ki ga potrebujete med rezervacijami."
+
+#: includes/admin/views/html-appointment-general.php:155
+msgid "Lead Time"
+msgstr "Čas do rezervacije"
+
+#: includes/admin/views/html-appointment-general.php:160
+#: includes/admin/views/html-appointment-general.php:181
+msgid "Week(s)"
+msgstr "Tedni"
+
+#: includes/admin/views/html-appointment-general.php:162
+msgid ""
+"How much in advance do you need before a client schedules an appointment?"
+msgstr "Koliko čas potrebujete, preden stranka izvede rezervacijo?"
+
+#: includes/admin/views/html-appointment-general.php:176
+msgid "Scheduling Window"
+msgstr "Čas za rezervacijo"
+
+#: includes/admin/views/html-appointment-general.php:184
+msgid "How far in advance are customers allowed to schedule an appointment?"
+msgstr ""
+"Koliko časa vnaprej ima stranka na voljo predno lahko izvede rezervacijo?"
+
+#: includes/admin/views/html-appointment-general.php:192
+msgid "Requires confirmation?"
+msgstr "Zahteva potrditev?"
+
+#: includes/admin/views/html-appointment-general.php:194
+msgid ""
+"Check this box if appointment requires confirmation. Payment will not be "
+"taken during checkout."
+msgstr ""
+"Potrdite to polje, če je za rezervacijo potrebna potrditev. Plačilo bo "
+"izvedeno po potrditvi."
+
+#: includes/admin/views/html-appointment-general.php:201
+msgid "Can be cancelled?"
+msgstr "Je mogoče preklicati?"
+
+#: includes/admin/views/html-appointment-general.php:203
+msgid ""
+"Check this box if appointment can be cancelled by the customer. A refund "
+"will not be sent automatically."
+msgstr ""
+"Potrdite to polje, če lahko kupec prekliče rezervacijo. Povračilo plačila ne "
+"bo izvedeno samodejno."
+
+#: includes/admin/views/html-appointment-general.php:214
+msgid "Cancelled at least"
+msgstr "Preklicano vsaj"
+
+#: includes/admin/views/html-appointment-general.php:222
+#: includes/admin/views/html-appointment-general.php:249
+#: includes/emails/class-wc-email-appointment-reminder.php:55
+#: includes/emails/class-wc-email-appointment-reminder.php:65
+msgid "before the start date."
+msgstr "pred datumom začetka."
+
+#: includes/admin/views/html-appointment-general.php:228
+msgid "Can be rescheduled?"
+msgstr "Se lahko prestavi?"
+
+#: includes/admin/views/html-appointment-general.php:230
+msgid "Check this box if appointment can be rescheduled by the customer."
+msgstr "Potrdite to polje, če lahko kupec prestavi rezervacijo."
+
+#: includes/admin/views/html-appointment-general.php:241
+msgid "Rescheduled at least"
+msgstr "Prestavi vsaj"
+
+#: includes/admin/views/html-appointment-general.php:255
+msgid "Customer timezones?"
+msgstr "Časovna območja strank?"
+
+#: includes/admin/views/html-appointment-general.php:257
+msgid "Check this box if can be converted to customer's timezone."
+msgstr ""
+"Potrdite to polje, če se lahko časovni termin pretvorijo v časovno območje "
+"stranke."
+
+#: includes/admin/views/html-appointment-general.php:275
+msgid "Calendar color"
+msgstr "Barva koledarja"
+
+#: includes/admin/views/html-appointment-general.php:277
+msgid ""
+"Pick a color that will represent this appointable product inside admin "
+"calendar."
+msgstr ""
+"Izberite barvo, ki bo predstavljala ta izdelek znotraj skrbniškega koledarja."
+
+#: includes/admin/views/html-appointment-inventory.php:21
+msgid "The available number per time slot."
+msgstr "Razpoložljivo število na časovni termin."
+
+#: includes/admin/views/html-appointment-inventory.php:36
+msgid "Minimum"
+msgstr "Najmanj"
+
+#: includes/admin/views/html-appointment-inventory.php:38
+msgid "The required minimum per appointment."
+msgstr "Zahtevani minimum na rezervacijo."
+
+#: includes/admin/views/html-appointment-inventory.php:54
+msgid "Maximum"
+msgstr "Največ"
+
+#: includes/admin/views/html-appointment-inventory.php:56
+msgid "The available maximum per appointment."
+msgstr "Na voljo največ na rezervacijo."
+
+#: includes/admin/views/html-appointment-pricing-fields.php:60
+msgid "Quantity count"
+msgstr "Količina"
+
+#: includes/admin/views/html-appointment-staff-fields.php:21
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:313
+msgid "Edit Product"
+msgstr "Uredi izdelek"
+
+#: includes/admin/views/html-appointment-staff-member.php:10
+#: includes/admin/views/html-calendar-dialog.php:170
+#: includes/class-wc-appointments-init.php:57
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:29
+msgid "Edit"
+msgstr "Uredi"
+
+#: includes/admin/views/html-appointment-staff-member.php:13
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:56
+msgid "Click to toggle"
+msgstr "Kliknite za preklop"
+
+#: includes/admin/views/html-appointment-staff.php:9
+#: includes/appointment-form/class-wc-appointment-form.php:108
+#: includes/class-wc-appointments-gcal.php:827
+#: includes/wc-appointments-functions.php:72
+msgid "Providers"
+msgstr "Ponudniki"
+
+#: includes/admin/views/html-appointment-staff.php:10
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:127
+msgid "Label"
+msgstr "Oznaka"
+
+#: includes/admin/views/html-appointment-staff.php:13
+msgid "The label shown on the frontend if the staff is customer defined."
+msgstr "Oznaka, prikazana strankam če je osebje izbrano s strani stranke."
+
+#: includes/admin/views/html-appointment-staff.php:20
+msgid "Selection"
+msgstr "Izbira"
+
+#: includes/admin/views/html-appointment-staff.php:23
+msgid "Customer selected"
+msgstr "Izbira s strani stranke"
+
+#: includes/admin/views/html-appointment-staff.php:24
+msgid "Automatically assigned"
+msgstr "Samodejni izbor"
+
+#: includes/admin/views/html-appointment-staff.php:25
+msgid "Automatically assigned (all staff together)"
+msgstr "Samodejni izbor (vso osebje skupaj)"
+
+#: includes/admin/views/html-appointment-staff.php:28
+msgid ""
+"Customer selected staff allow customers to choose one from the appointment "
+"form."
+msgstr "Izbor osebja s strani stranke omogoča, da izberejo enega iz seznama."
+
+#: includes/admin/views/html-appointment-staff.php:35
+msgid "No Preference?"
+msgstr "Brez samodejne možnosti izbire?"
+
+#: includes/admin/views/html-appointment-staff.php:37
+msgid "Check this box if you want to show No preference option."
+msgstr ""
+"Potrdite to polje, če želite pokazati opcijo za samodejno možnost izbire."
+
+#: includes/admin/views/html-appointment-staff.php:72
+msgid "Assign Staff"
+msgstr "Dodeli osebje"
+
+#: includes/admin/views/html-appointment-staff.php:82
+msgid "Manage Staff"
+msgstr "Upravljanje osebja"
+
+#: includes/admin/views/html-appointment-staff.php:84
+msgid "Add Staff"
+msgstr "Dodaj osebje"
+
+#: includes/admin/views/html-calendar-day.php:228
+#: includes/admin/views/html-calendar-staff.php:204
+#: includes/admin/views/html-calendar-week.php:226
+msgid "All Day"
+msgstr "Ves dan"
+
+#: includes/admin/views/html-calendar-dialog-add.php:7
+#: includes/admin/views/html-calendar-dialog-add.php:41
+#: includes/admin/views/html-calendar-dialog.php:7
+#: includes/admin/views/html-calendar-dialog.php:19
+#: includes/class-wc-appointments-init.php:467
+#: includes/class-wc-appointments-widget-availability.php:40
+msgid "Close"
+msgstr "Zapri"
+
+#: includes/admin/views/html-calendar-dialog-add.php:21
+msgid "Select staff &#8230;"
+msgstr "Izberite osebje &#8230;"
+
+#: includes/admin/views/html-calendar-dialog-add.php:29
+#: includes/appointment-form/class-wc-appointment-form-date-picker.php:37
+#: includes/appointment-form/class-wc-appointment-form-datetime-picker.php:32
+#: includes/wc-appointments-functions.php:73
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/views/html-calendar-dialog-add.php:33
+#: includes/wc-appointments-functions.php:74
+#: templates/appointment-form/datetime-picker.php:86
+msgid "Time"
+msgstr "Ura"
+
+#: includes/admin/views/html-calendar-dialog-add.php:138
+#: includes/class-wc-appointments-init.php:59
+msgid "New Appointment"
+msgstr "Nova rezervacija"
+
+#: includes/admin/views/html-calendar-dialog.php:158
+#: templates/myaccount/appointments.php:41
+#: templates/myaccount/appointments.php:84
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/views/html-calendar-dialog.php:163
+msgid "Cost"
+msgstr "Cena"
+
+#: includes/admin/views/html-calendar-nav.php:23
+msgid "All Staff"
+msgstr "Vso osebje"
+
+#: includes/admin/views/html-calendar-nav.php:101
+#: includes/appointment-form/class-wc-appointment-form-month-picker.php:36
+#: templates/appointment-form/date-picker.php:66
+#: templates/appointment-form/date-picker.php:77
+#: templates/appointment-form/datetime-picker.php:65
+#: templates/appointment-form/datetime-picker.php:76
+msgid "Month"
+msgstr "Mesec"
+
+#: includes/admin/views/html-calendar-nav.php:104
+msgid "Week"
+msgstr "Teden"
+
+#: includes/admin/views/html-calendar-nav.php:107
+#: templates/appointment-form/date-picker.php:69
+#: templates/appointment-form/date-picker.php:74
+#: templates/appointment-form/datetime-picker.php:68
+#: templates/appointment-form/datetime-picker.php:73
+msgid "Day"
+msgstr "Dan"
+
+#: includes/admin/views/html-calendar-staff.php:214
+msgid "Edit User and Availability"
+msgstr "Urejanje uporabnika in razpoložljivost"
+
+#: includes/admin/views/html-calendar-staff.php:229
+msgid "Unassigned"
+msgstr "Nedodeljen"
+
+#: includes/admin/views/html-settings-global-availability.php:45
+msgid "Global availability"
+msgstr "Globalna razpoložljivost"
+
+#: includes/admin/views/html-settings-global-availability.php:47
+msgid ""
+"The availability rules you define here will affect all appointable products. "
+"You can override them for each product, staff."
+msgstr ""
+"Pravila o razpoložljivosti, ki jih določite tukaj, bodo vplivala na vse "
+"izdelke za rezervacijo terminov. Lahko jih preglasite za vsak izdelek, "
+"osebje."
+
+#: includes/admin/views/html-settings-global-availability.php:51
+msgid "Site rules"
+msgstr "Pravila spletnega mesta"
+
+#: includes/api/class-wc-appointments-rest-crud-controller.php:50
+msgid "Unique identifier for the resource."
+msgstr "Unikatni identifikator za resurs."
+
+#: includes/api/class-wc-appointments-rest-crud-controller.php:79
+msgid "Whether to bypass trash and force deletion."
+msgstr "Ali se obide smetnjak in se takoj izbriše."
+
+#: includes/api/class-wc-appointments-rest-products-controller.php:95
+#: includes/api/class-wc-appointments-rest-products-controller.php:181
+#: includes/api/class-wc-appointments-rest-slots-controller.php:147
+msgid "Not an appointable product"
+msgstr "Ni izdelek za rezervacije"
+
+#: includes/api/class-wc-appointments-rest-products-controller.php:153
+msgid "Limit result set to products assigned a specific staff ID."
+msgstr ""
+"Omejevanje rezultata, nastavljenega na izdelke, ki jim je dodeljen določen "
+"ID osebja."
+
+#: includes/appointment-form/class-wc-appointment-form.php:69
+msgid "Timezone:"
+msgstr "Časovno območje:"
+
+#. translators: Admin notice with title and link to bookable product removed
+#. from cart.
+#: includes/class-wc-appointment-cart-manager.php:293
+msgid ""
+"An appointment for %s has been removed from your cart due to inactivity."
+msgstr "Rezervacija za %s je bila zaradi neaktivnosti odstranjena iz košarice."
+
+#. translators: Admin notice with list of titles and links to bookable products
+#. removed from cart.
+#: includes/class-wc-appointment-cart-manager.php:297
+msgid "Appointments for %s have been removed from your cart due to inactivity."
+msgstr "Rezervacije za %s so bile zaradi neaktivnosti odstranjene iz košarice."
+
+#. translators: %s: product name
+#: includes/class-wc-appointment-cart-manager.php:556
+msgid ""
+"%s has been removed from your cart. It is not possible to complete the "
+"purchase along with an appointment that requires confirmation."
+msgstr ""
+"%s je bila odstranjena iz vaše košarice. Nakupa ni mogoče dokončati skupaj z "
+"rezervacijo, ki zahteva potrditev."
+
+#: includes/class-wc-appointment-cart-manager.php:563
+msgid ""
+"An appointment that requires confirmation has been removed from your cart. "
+"It is not possible to complete the purchase along with an appointment that "
+"doesn't require confirmation."
+msgstr ""
+"Rezervacija, ki zahteva potrditev, je bila odstranjena iz košarice. Nakupa "
+"ni mogoče dokončati skupaj z rezervacijo, ki ne zahteva potrditve."
+
+#: includes/class-wc-appointment-form-handler.php:32
+#: includes/class-wc-appointment-form-handler.php:72
+msgid "Your appointment has already been cancelled."
+msgstr "Vaša rezervacija je bila že preklicana."
+
+#: includes/class-wc-appointment-form-handler.php:40
+msgid "Your appointment has been cancelled."
+msgstr "Vaša rezervacija je preklicana."
+
+#: includes/class-wc-appointment-form-handler.php:44
+msgid ""
+"Your appointment can no longer be cancelled. Please contact us if you need "
+"assistance."
+msgstr ""
+"Vaše rezervacije ni več mogoče preklicati. Če potrebujete pomoč, nas "
+"kontaktirajte."
+
+#: includes/class-wc-appointment-form-handler.php:46
+#: includes/class-wc-appointment-form-handler.php:83
+#: includes/class-wc-appointment-form-handler.php:145
+#: includes/class-wc-appointment-order-manager.php:331
+#: includes/class-wc-appointment-order-manager.php:340
+#: includes/data-stores/class-wc-appointment-data-store.php:87
+msgid "Invalid appointment."
+msgstr "Neveljavna rezervacija."
+
+#. translators: %1$d: appointment id, %2$s: old appointment time, %3$s: new
+#. appointment time
+#: includes/class-wc-appointment-form-handler.php:122
+msgid "Appointment #%1$d has been rescheduled from %2$s to %3$s."
+msgstr "Rezervacija #%1$d je bila preložitena iz %2$s na %3$s."
+
+#. translators: %d: page number
+#: includes/class-wc-appointment-order-manager.php:236
+msgid "Appointments (page %d)"
+msgstr "Rezervacije (stran %d)"
+
+#. translators: %s: Appointment ID
+#: includes/class-wc-appointment-order-manager.php:247
+msgid "Reschedule #%d"
+msgstr "Prestavi #%d"
+
+#: includes/class-wc-appointment-order-manager.php:441
+msgid "Current"
+msgstr "Trenutno"
+
+#: includes/class-wc-appointment-order-manager.php:447
+msgid "Upcoming"
+msgstr "Prihajajoče"
+
+#: includes/class-wc-appointment-order-manager.php:453
+msgid "Past"
+msgstr "Preteklo"
+
+#. translators: %1$d: appointment ID
+#: includes/class-wc-appointment-order-manager.php:1149
+msgid "Appointment #%1$d cancelled due to failed order."
+msgstr "Rezervacija #%1$d preklicana zaradi neuspelega naročila."
+
+#: includes/class-wc-appointment-privacy.php:14
+#: includes/class-wc-appointment-privacy.php:15
+msgid "WooCommerce Appointments Data"
+msgstr "Podatki o WooCommerce Rezervacijah"
+
+#: includes/class-wc-appointment-privacy.php:41
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service."
+msgstr ""
+"Z uporabo te razširitve se lahko shranjujejo osebni podatki ali delitev "
+"podatkov z zunanjo storitvijo."
+
+#: includes/class-wc-appointment-privacy.php:68
+msgid "Appointment Number"
+msgstr "Številka rezervacije"
+
+#: includes/class-wc-appointment-privacy.php:72
+msgid "Appointment start"
+msgstr "Začetek rezervacije"
+
+#: includes/class-wc-appointment-privacy.php:76
+msgid "Appointment end"
+msgstr "Konec rezervacije"
+
+#: includes/class-wc-appointment-privacy.php:84
+msgid "Scheduled order ID"
+msgstr "ID načrtovanega naročila"
+
+#: includes/class-wc-appointment-privacy.php:141
+msgid "WooCommerce Appointments Data Erased."
+msgstr "Podatki za WooCommerce Rezervacije so izbrisani."
+
+#: includes/class-wc-appointments-cost-calculation.php:102
+msgid "Sorry, the selected day is not available."
+msgstr "Oprostite, izbrani dan ni na voljo."
+
+#: includes/class-wc-appointments-customize.php:128
+msgid "Selection color"
+msgstr "Barva izbora"
+
+#: includes/class-wc-appointments-gcal.php:236
+msgid "Account connected successfully!"
+msgstr "Račun uspešno povezan!"
+
+#: includes/class-wc-appointments-gcal.php:238
+msgid ""
+"Failed to connect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr ""
+"Povezave z računom ni bilo mogoče vzpostaviti, poskusite znova. Če težava "
+"ostane, vklopite možnost Dnevnik odpravljanja napak in si oglejte, kaj se "
+"dogaja."
+
+#: includes/class-wc-appointments-gcal.php:244
+msgid "Account disconnected successfully!"
+msgstr "Uspešno prekinjena povezavo za računom!"
+
+#: includes/class-wc-appointments-gcal.php:246
+msgid ""
+"Failed to disconnect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr ""
+"Prekinitev povezave z računom ni uspela, poskusite znova. Če težava ostane, "
+"vklopite možnost Dnevnik odpravljanja napak in si oglejte, kaj se dogaja."
+
+#: includes/class-wc-appointments-gcal.php:450
+msgid "Permission denied!"
+msgstr "Dostop zavrnjen!"
+
+#: includes/class-wc-appointments-gcal.php:509
+msgid "Invalid request!"
+msgstr "Neveljavna zahteva!"
+
+#: includes/class-wc-appointments-gcal.php:824
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:297
+#: templates/emails/admin-appointment-cancelled.php:40
+#: templates/emails/admin-new-appointment.php:48
+#: templates/emails/customer-appointment-cancelled.php:37
+#: templates/emails/customer-appointment-confirmed.php:37
+#: templates/emails/customer-appointment-follow-up.php:40
+#: templates/emails/customer-appointment-reminder.php:46
+msgid "Appointment ID"
+msgstr "ID rezervacije"
+
+#. translators: %s: site name
+#: includes/class-wc-appointments-ics-exporter.php:167
+msgid "Appointments from %s"
+msgstr "Rezervacije od %s"
+
+#: includes/class-wc-appointments-ics-exporter.php:213
+msgid "Appointment description:"
+msgstr "Opis rezervacije:"
+
+#: includes/class-wc-appointments-init.php:58
+#: includes/class-wc-appointments-init.php:239
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:311
+#: templates/order/admin/appointment-display.php:46
+msgid "Edit Appointment"
+msgstr "Uredi rezervacijo"
+
+#: includes/class-wc-appointments-init.php:60
+#: includes/class-wc-appointments-init.php:61
+msgid "View Appointment"
+msgstr "Ogled rezervacije"
+
+#: includes/class-wc-appointments-init.php:62
+msgid "Search Appointments"
+msgstr "Išči med rezervacijami"
+
+#: includes/class-wc-appointments-init.php:63
+msgid "No Appointments found"
+msgstr "Ni najdenih rezervacij"
+
+#: includes/class-wc-appointments-init.php:64
+msgid "No Appointments found in trash"
+msgstr "Ni najdenih rezervacij v smetnjaku"
+
+#: includes/class-wc-appointments-init.php:65
+msgid "Parent Appointments"
+msgstr "Nadrejena rezervacija"
+
+#: includes/class-wc-appointments-init.php:67
+msgid "All Appointments"
+msgstr "Vse rezervacije"
+
+#: includes/class-wc-appointments-init.php:69
+msgid "This is where appointments are stored."
+msgstr "Tu se shranjujejo rezervacije."
+
+#. translators: %s: count
+#: includes/class-wc-appointments-init.php:101
+msgid "Complete <span class=\"count\">(%s)</span>"
+msgid_plural "Complete <span class=\"count\">(%s)</span>"
+msgstr[0] "Dokončano <span class=\"count\">( %s )</span>"
+msgstr[1] "Dokončano <span class=\"count\">( %s )</span>"
+msgstr[2] "Dokončano <span class=\"count\">( %s )</span>"
+msgstr[3] "Dokončano <span class=\"count\">( %s )</span>"
+
+#. translators: %s: count
+#: includes/class-wc-appointments-init.php:113
+msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Plačano in potrjeno <span class=\"count\">( %s )</span>"
+msgstr[1] "Plačano in potrjeno <span class=\"count\">( %s )</span>"
+msgstr[2] "Plačano in potrjeno <span class=\"count\">( %s )</span>"
+msgstr[3] "Plačano in potrjeno <span class=\"count\">( %s )</span>"
+
+#. translators: %s: count
+#: includes/class-wc-appointments-init.php:125
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Potrjeno <span class=\"count\">( %s )</span>"
+msgstr[1] "Potrjeno <span class=\"count\">( %s )</span>"
+msgstr[2] "Potrjeno <span class=\"count\">( %s )</span>"
+msgstr[3] "Potrjeno <span class=\"count\">( %s )</span>"
+
+#. translators: %s: count
+#: includes/class-wc-appointments-init.php:137
+msgid "Un-paid <span class=\"count\">(%s)</span>"
+msgid_plural "Un-paid <span class=\"count\">(%s)</span>"
+msgstr[0] "Neplačano <span class=\"count\">( %s )</span>"
+msgstr[1] "Neplačano <span class=\"count\">( %s )</span>"
+msgstr[2] "Neplačano <span class=\"count\">( %s )</span>"
+msgstr[3] "Neplačano <span class=\"count\">( %s )</span>"
+
+#. translators: %s: count
+#: includes/class-wc-appointments-init.php:149
+msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "V čakanju potrditve <span class=\"count\">( %s )</span>"
+msgstr[1] "V čakanju potrditve <span class=\"count\">( %s )</span>"
+msgstr[2] "V čakanju potrditve <span class=\"count\">( %s )</span>"
+msgstr[3] "V čakanju potrditve <span class=\"count\">( %s )</span>"
+
+#. translators: %s: count
+#: includes/class-wc-appointments-init.php:161
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Preklicano <span class=\"count\">(%s)</span>"
+msgstr[1] "Preklicano <span class=\"count\">(%s)</span>"
+msgstr[2] "Preklicano <span class=\"count\">(%s)</span>"
+msgstr[3] "Preklicano <span class=\"count\">(%s)</span>"
+
+#. translators: %s: count
+#: includes/class-wc-appointments-init.php:173
+msgid "In Cart <span class=\"count\">(%s)</span>"
+msgid_plural "In Cart <span class=\"count\">(%s)</span>"
+msgstr[0] "V košarici <span class=\"count\">( %s )</span>"
+msgstr[1] "V košarici <span class=\"count\">( %s )</span>"
+msgstr[2] "V košarici <span class=\"count\">( %s )</span>"
+msgstr[3] "V košarici <span class=\"count\">( %s )</span>"
+
+#: includes/class-wc-appointments-init.php:468
+#: includes/class-wc-appointments-widget-availability.php:41
+msgid "Today"
+msgstr "Danes"
+
+#: includes/class-wc-appointments-init.php:469
+#: includes/class-wc-appointments-widget-availability.php:42
+#: templates/myaccount/appointments.php:104
+msgid "Previous"
+msgstr "Nazaj"
+
+#: includes/class-wc-appointments-init.php:492
+msgid "Selected date is unavailable"
+msgstr "Izbrani datum ni na voljo"
+
+#: includes/class-wc-appointments-init.php:493
+msgid "Selected date is not valid"
+msgstr "Izbrani datum ni veljaven"
+
+#: includes/class-wc-appointments-init.php:494
+msgid "Selected time is unavailable"
+msgstr "Izbrani čas ni na voljo"
+
+#: includes/class-wc-appointments-init.php:495
+msgid "Selected date is fully scheduled and unavailable"
+msgstr "Izbrani datum je v celoti zaseden in ni na voljo"
+
+#: includes/class-wc-appointments-init.php:496
+msgid "Selected date is partially scheduled - but appointments still remain"
+msgstr ""
+"Izbrani datum je delno zaseden - posamezni termini so še vedno na voljo"
+
+#: includes/class-wc-appointments-init.php:497
+msgid "Selected date is available"
+msgstr "Izbrani datum je na voljo"
+
+#: includes/class-wc-appointments-init.php:498
+msgid "Choose a Start Date"
+msgstr "Izberite začetni datum"
+
+#: includes/class-wc-appointments-init.php:499
+msgid "Choose an End Date"
+msgstr "Izberite končni datum"
+
+#: includes/class-wc-appointments-init.php:500
+msgid "Dates"
+msgstr "Datumi"
+
+#: includes/class-wc-appointments-init.php:501
+msgid "To clear selection, pick a new start date"
+msgstr "Če želite počistiti izbor, izberite nov začetni datum"
+
+#: includes/class-wc-appointments-install.php:108
+msgid "Shop Staff"
+msgstr "Osebje"
+
+#: includes/class-wc-appointments-wc-ajax.php:94
+msgid "Missing timezone"
+msgstr "Manjkajoče časovno območje"
+
+#: includes/class-wc-appointments-widget-availability.php:22
+msgid "Filter products in your store by availability."
+msgstr "Filtrirajte izdelke spletnega mesta po razpoložljivosti."
+
+#: includes/class-wc-appointments-widget-availability.php:24
+msgid "Filter Products by Availability"
+msgstr "Filtriraj izdelke po razpoložljivosti"
+
+#: includes/class-wc-appointments-widget-availability.php:28
+msgid "Filter by availability"
+msgstr "Filtriraj po razpoložljivosti"
+
+#: includes/class-wc-appointments-widget-availability.php:129
+msgid "Filter"
+msgstr "Filtriraj"
+
+#: includes/class-wc-product-appointment-manager.php:42
+msgid ""
+"You cannot trash/delete an appointable product that has Appointments "
+"associated with it."
+msgstr ""
+"Izdelka ne morete izbrisati, saj so z njim povezanem obstoječe rezervacije."
+
+#: includes/compatibility/class-wc-data-store.php:75
+#: includes/compatibility/class-wc-data-store.php:80
+msgid "Invalid data store."
+msgstr "Neveljavna podatkovna shramba."
+
+#: includes/compatibility/class-wc-product-data-store-cpt.php:118
+msgid "Invalid product."
+msgstr "Neveljaven izdelek."
+
+#: includes/data-objects/class-wc-appointment.php:212
+#: includes/data-objects/class-wc-appointment.php:1551
+#: includes/wc-appointments-functions.php:182
+msgid "Was In Cart"
+msgstr "Je bila v košarici"
+
+#. translators: %1$d: appointment id %2$s: old status %3$s: new status
+#: includes/data-objects/class-wc-appointment.php:267
+msgid "Appointment #%1$d status changed from \"%2$s\" to \"%3$s\""
+msgstr "Status rezervacije #%1$d spremenjen iz \"%2$s\" v \"%3$s\""
+
+#: includes/data-objects/class-wc-product-appointment.php:86
+#: templates/myaccount/appointments.php:119
+msgid "Book"
+msgstr "Rezerviraj"
+
+#: includes/data-objects/class-wc-product-appointment.php:95
+msgid "Check Availability"
+msgstr "Preveri razpoložljivost"
+
+#: includes/data-objects/class-wc-product-appointment.php:95
+msgid "Book Now"
+msgstr "Rezerviraj zdaj"
+
+#: includes/data-objects/class-wc-product-appointment.php:135
+msgid "Free!"
+msgstr "Brezplačno!"
+
+#. translators: %s: display price
+#: includes/data-objects/class-wc-product-appointment.php:148
+msgid "From: %s"
+msgstr "Od: %s"
+
+#. translators: %s: display duration
+#. translators: %s: months
+#: includes/data-objects/class-wc-product-appointment.php:159
+#: includes/wc-appointments-functions.php:498
+#: includes/wc-appointments-functions.php:529
+#: includes/wc-appointments-functions.php:1270
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mesec"
+msgstr[1] "%s meseca"
+msgstr[2] "%s meseci"
+msgstr[3] "%s mesecev"
+
+#. translators: %s: display duration
+#. translators: %s: days in singular or plural
+#. translators: %s: days
+#: includes/data-objects/class-wc-product-appointment.php:162
+#: includes/emails/class-wc-email-appointment-follow-up.php:64
+#: includes/emails/class-wc-email-appointment-reminder.php:64
+#: includes/wc-appointments-functions.php:501
+#: includes/wc-appointments-functions.php:534
+#: includes/wc-appointments-functions.php:541
+#: includes/wc-appointments-functions.php:1273
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s dan"
+msgstr[1] "%s dneva"
+msgstr[2] "%s dni"
+msgstr[3] "%s dni"
+
+#. translators: %1$d: available quantity %2$s: appointment slot date %3$s:
+#. appointment slot time
+#: includes/data-objects/class-wc-product-appointment.php:1533
+msgid "There is a maximum of %1$d place remaining on %2$s at %3$s."
+msgid_plural "There are a maximum of %1$d places remaining on %2$s at %3$s."
+msgstr[0] "Za %2$s ob %3$s je na voljo največ %1$d mesto."
+msgstr[1] "Za %2$s ob %3$s so na voljo največ %1$d mesta."
+msgstr[2] "Za %2$s ob %3$s so na voljo največ %1$d mesta."
+msgstr[3] "Za %2$s ob %3$s je na voljo največ %1$d mest."
+
+#. translators: %1$d: available quantity %2$s: appointment slot date
+#: includes/data-objects/class-wc-product-appointment.php:1544
+#: includes/data-objects/class-wc-product-appointment.php:1554
+msgid "There is a maximum of %1$d place remaining on %2$s"
+msgid_plural "There are a maximum of %1$d places remaining on %2$s"
+msgstr[0] "Za %2$s je na voljo največ %1$d mesto"
+msgstr[1] "Za %2$s so na voljo največ %1$d mesta"
+msgstr[2] "Za %2$s so na voljo največ %1$d mesta"
+msgstr[3] "Za %2$s je na voljo največ %1$d mest"
+
+#: includes/data-objects/class-wc-product-appointment.php:2332
+msgid "This slot cannot be scheduled."
+msgstr "Ta termin ni mogoče rezervirati."
+
+#: includes/data-objects/class-wc-product-appointment.php:2460
+msgid "Date is required - please choose one above"
+msgstr "Datum je potreben - izberite ga zgoraj"
+
+#: includes/data-objects/class-wc-product-appointment.php:2463
+msgid "Time is required - please choose one above"
+msgstr "Čas je potreben - izberite ga zgoraj"
+
+#: includes/data-objects/class-wc-product-appointment.php:2466
+#: includes/data-objects/class-wc-product-appointment.php:2469
+msgid "You must choose a future date and time."
+msgstr "Izbrati morate prihodnji datum in čas."
+
+#. translators: %s: minimum date
+#: includes/data-objects/class-wc-product-appointment.php:2487
+msgid "The earliest appointment possible is currently %s."
+msgstr "Prva rezervacija je na voljo %s."
+
+#. translators: %s: maximum date
+#: includes/data-objects/class-wc-product-appointment.php:2496
+msgid "The latest appointment possible is currently %s."
+msgstr "Zadnja rezervacija je na voljo %s."
+
+#: includes/data-objects/class-wc-product-appointment.php:2505
+msgid "Sorry, appointments cannot start on this day."
+msgstr "Oprostite, rezervacije se ne morejo začeti na ta dan."
+
+#: includes/data-objects/class-wc-product-appointment.php:2521
+msgid "Sorry, the selected slot is not available."
+msgstr "Oprostite, izbran termin ni na voljo."
+
+#: includes/data-objects/class-wc-product-appointment.php:2965
+msgid "Morning"
+msgstr "Dopoldan"
+
+#: includes/data-objects/class-wc-product-appointment.php:2970
+msgid "Afternoon"
+msgstr "Popoldan"
+
+#: includes/data-objects/class-wc-product-appointment.php:2975
+msgid "Evening"
+msgstr "Zvečer"
+
+#. translators: %d: quantity
+#: includes/data-objects/class-wc-product-appointment.php:3019
+msgid "%d max"
+msgid_plural "%d max"
+msgstr[0] "največ %d"
+msgstr[1] "največ %d"
+msgstr[2] "največ %d"
+msgstr[3] "največ %d"
+
+#. translators: %d: quantity
+#: includes/data-objects/class-wc-product-appointment.php:3021
+#: includes/data-objects/class-wc-product-appointment.php:3024
+#: includes/data-objects/class-wc-product-appointment.php:3029
+msgid "%d left"
+msgid_plural "%d left"
+msgstr[0] "%d na voljo"
+msgstr[1] "%d na voljo"
+msgstr[2] "%d na voljo"
+msgstr[3] "%d na voljo"
+
+#. translators: %d: quantity
+#: includes/data-objects/class-wc-product-appointment.php:3060
+msgid "&#45;"
+msgstr "&#45;"
+
+#: includes/data-stores/class-wc-appointment-data-store.php:57
+msgid "Appointment &ndash; %s"
+msgstr "Rezervacija &ndash; %s"
+
+#: includes/data-stores/class-wc-appointments-availability-data-store.php:101
+msgid "Invalid event."
+msgstr "Neveljaven dogodek."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:20
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:94
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:117
+msgid "Admin Appointment Cancelled"
+msgstr "Prekli rezervacije (obvestilo skrbniku)"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:21
+#: includes/emails/class-wc-email-appointment-cancelled.php:21
+msgid ""
+"Appointment cancelled emails are sent when the status of an appointment goes "
+"to cancelled."
+msgstr ""
+"E-poštna sporočila za preklicane rezervacije se pošljejo, ko status "
+"rezervacije postane preklican."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:88
+#: includes/emails/class-wc-email-appointment-cancelled.php:54
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:187
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:193
+msgid "[{site_title}]: Appointment for {product_title} has been cancelled"
+msgstr "[{site_title}]: Rezervacija za {product_title} je bila preklicana"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:98
+#: includes/emails/class-wc-email-appointment-cancelled.php:64
+msgid "Appointment #{appointment_number} Cancelled"
+msgstr "Rezervacija #{appointment_number} preklicana"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:212
+#: includes/emails/class-wc-email-admin-new-appointment.php:277
+#: includes/emails/class-wc-email-appointment-cancelled.php:199
+#: includes/emails/class-wc-email-appointment-confirmed.php:215
+#: includes/emails/class-wc-email-appointment-follow-up.php:221
+#: includes/emails/class-wc-email-appointment-reminder.php:221
+msgid "Enable/Disable"
+msgstr "Omogoči/Onemogoči"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:214
+#: includes/emails/class-wc-email-admin-new-appointment.php:279
+#: includes/emails/class-wc-email-appointment-cancelled.php:201
+#: includes/emails/class-wc-email-appointment-confirmed.php:217
+#: includes/emails/class-wc-email-appointment-follow-up.php:223
+#: includes/emails/class-wc-email-appointment-reminder.php:223
+msgid "Enable this email notification"
+msgstr "Omogoči to e-poštnega obvestila"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:218
+#: includes/emails/class-wc-email-admin-new-appointment.php:283
+msgid "Recipient(s)"
+msgstr "Prejemnik(i)"
+
+#. translators: %s: WP admin email
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:221
+#: includes/emails/class-wc-email-admin-new-appointment.php:286
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to assigned "
+"staff and <code>%s</code>."
+msgstr ""
+"Vnesite prejemnike (ločene z vejico) za to e-poštno sporočilo. Privzeto na "
+"izbrano osebje in <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:227
+#: includes/emails/class-wc-email-admin-new-appointment.php:292
+#: includes/emails/class-wc-email-appointment-cancelled.php:205
+#: includes/emails/class-wc-email-appointment-confirmed.php:221
+#: includes/emails/class-wc-email-appointment-follow-up.php:236
+#: includes/emails/class-wc-email-appointment-reminder.php:236
+msgid "Subject"
+msgstr "Zadeva"
+
+#. translators: %s: list of placeholders
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:230
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:239
+#: includes/emails/class-wc-email-admin-new-appointment.php:295
+#: includes/emails/class-wc-email-admin-new-appointment.php:304
+#: includes/emails/class-wc-email-admin-new-appointment.php:313
+#: includes/emails/class-wc-email-admin-new-appointment.php:322
+#: includes/emails/class-wc-email-appointment-cancelled.php:208
+#: includes/emails/class-wc-email-appointment-cancelled.php:217
+#: includes/emails/class-wc-email-appointment-cancelled.php:227
+#: includes/emails/class-wc-email-appointment-confirmed.php:224
+#: includes/emails/class-wc-email-appointment-confirmed.php:233
+#: includes/emails/class-wc-email-appointment-confirmed.php:243
+#: includes/emails/class-wc-email-appointment-follow-up.php:239
+#: includes/emails/class-wc-email-appointment-follow-up.php:248
+#: includes/emails/class-wc-email-appointment-follow-up.php:258
+#: includes/emails/class-wc-email-appointment-reminder.php:239
+#: includes/emails/class-wc-email-appointment-reminder.php:248
+#: includes/emails/class-wc-email-appointment-reminder.php:258
+msgid "Available placeholders: %s"
+msgstr "Nadomestna polja na voljo: %s"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:236
+#: includes/emails/class-wc-email-admin-new-appointment.php:310
+#: includes/emails/class-wc-email-appointment-cancelled.php:214
+#: includes/emails/class-wc-email-appointment-confirmed.php:230
+#: includes/emails/class-wc-email-appointment-follow-up.php:245
+#: includes/emails/class-wc-email-appointment-reminder.php:245
+msgid "Email Heading"
+msgstr "Naslov e-pošte"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:245
+#: includes/emails/class-wc-email-admin-new-appointment.php:328
+#: includes/emails/class-wc-email-appointment-cancelled.php:233
+#: includes/emails/class-wc-email-appointment-confirmed.php:249
+#: includes/emails/class-wc-email-appointment-follow-up.php:264
+#: includes/emails/class-wc-email-appointment-reminder.php:264
+msgid "Email type"
+msgstr "Vrsta e-pošte"
+
+#: includes/emails/class-wc-email-admin-appointment-cancelled.php:247
+#: includes/emails/class-wc-email-admin-new-appointment.php:330
+#: includes/emails/class-wc-email-appointment-cancelled.php:235
+#: includes/emails/class-wc-email-appointment-confirmed.php:251
+#: includes/emails/class-wc-email-appointment-follow-up.php:266
+#: includes/emails/class-wc-email-appointment-reminder.php:266
+msgid "Choose which format of email to send."
+msgstr "Izberite format e-poštnega sporočila, ki ga želite poslati."
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:27
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:95
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:118
+msgid "Admin New Appointment"
+msgstr "Nova rezervacija (obvestilo skrbniku)"
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:28
+msgid ""
+"New appointment emails are sent to the admin when a new appointment is "
+"created and paid. This email is also received when a Pending confirmation "
+"appointment is created."
+msgstr ""
+"Nova e-poštna sporočila se pošljejo skrbniku, ko je ustvarjena in plačana "
+"nova rezervacija. To e-poštno sporočilo prejmete tudi, ko ustvarite "
+"rezervacijo, ki čaka na potrditev."
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:108
+msgid "[{site_title}]: Confirm appointment for {product_title}"
+msgstr "[{site_title}]: Potrdi rezervacijo za {product_title}"
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:110
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:190
+msgid "[{site_title}]: New appointment for {product_title}"
+msgstr "[{site_title}]: Nova rezervacija za {product_title}"
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:122
+msgid "Confirm appointment: #{appointment_number}"
+msgstr "Potrdi rezervacijo: #{appointment_number}"
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:124
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:189
+msgid "New appointment: #{appointment_number}"
+msgstr "Nova rezervacija: #{appointment_number}"
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:301
+msgid "Subject (Pending confirmation)"
+msgstr "Zadeva (V čakanju na potrditev)"
+
+#: includes/emails/class-wc-email-admin-new-appointment.php:319
+msgid "Email Heading (Pending confirmation)"
+msgstr "Naslov e-pošte (v čakanju na potrditev)"
+
+#: includes/emails/class-wc-email-appointment-cancelled.php:20
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:96
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:119
+msgid "Appointment Cancelled"
+msgstr "Preklic rezervacije"
+
+#: includes/emails/class-wc-email-appointment-cancelled.php:74
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:194
+msgid "Please contact us if you have any questions or concerns."
+msgstr "Če imate kakšna vprašanja ali pomisleke, nas kontaktirajte."
+
+#: includes/emails/class-wc-email-appointment-cancelled.php:223
+#: includes/emails/class-wc-email-appointment-confirmed.php:239
+#: includes/emails/class-wc-email-appointment-follow-up.php:254
+#: includes/emails/class-wc-email-appointment-reminder.php:254
+msgid "Additional Content"
+msgstr "Dodatna vsebina"
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:20
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:97
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:120
+msgid "Appointment Confirmed"
+msgstr "Potrditev rezervacije"
+
+#. translators: %1$s: <mark>, %2$s: </mark>
+#: includes/emails/class-wc-email-appointment-confirmed.php:22
+msgid ""
+"Appointment confirmation emails are sent when the status of an appointment "
+"goes to confirmed. %1$sNew appointment notification is part of New order "
+"email%2$s."
+msgstr ""
+"E-poštna sporočila s potrditvijo rezervacije se pošljejo, ko je status "
+"rezervacije potrjen. %1$sNovo obvestilo o rezervaciji je del e-pošte Novega "
+"naročila%2$s."
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:70
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:197
+msgid "[{site_title}]: Appointment for {product_title} has been confirmed"
+msgstr "[{site_title}]: Rezervacija za {product_title} je bila potrjena"
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:80
+msgid "Appointment #{appointment_number} Confirmed"
+msgstr "Rezervacija #{appointment_number} potrjena"
+
+#: includes/emails/class-wc-email-appointment-confirmed.php:90
+#: includes/emails/class-wc-email-appointment-follow-up.php:100
+#: includes/emails/class-wc-email-appointment-reminder.php:100
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:198
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:202
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:206
+msgid "Thanks for scheduling with us."
+msgstr "Hvala za Vašo rezervacijo pri nas."
+
+#: includes/emails/class-wc-email-appointment-follow-up.php:20
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:99
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:122
+msgid "Appointment Follow-up"
+msgstr "Obvestilo po rezervaciji"
+
+#: includes/emails/class-wc-email-appointment-follow-up.php:21
+msgid ""
+"Appointment follow-ups are sent to the customer after appointment is "
+"completed."
+msgstr "Obvestila po rezervaciji se pošljejo kupcu po zaključeni rezervaciji."
+
+#. translators: %s: hours in singular or plural
+#. translators: %s: hours
+#: includes/emails/class-wc-email-appointment-follow-up.php:54
+#: includes/emails/class-wc-email-appointment-reminder.php:54
+#: includes/wc-appointments-functions.php:546
+#: includes/wc-appointments-functions.php:558
+#: includes/wc-appointments-functions.php:1276
+#: includes/wc-appointments-functions.php:1279
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s ura"
+msgstr[1] "%s uri"
+msgstr[2] "%s ure"
+msgstr[3] "%s ur"
+
+#: includes/emails/class-wc-email-appointment-follow-up.php:55
+#: includes/emails/class-wc-email-appointment-follow-up.php:65
+msgid "after the completion."
+msgstr "po zaključku."
+
+#: includes/emails/class-wc-email-appointment-follow-up.php:80
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:205
+msgid "[{site_title}]: Appointment follow-up for {product_title}"
+msgstr "[{site_title}]: Obvestilo po rezervaciji za {product_title}"
+
+#: includes/emails/class-wc-email-appointment-follow-up.php:90
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:204
+msgid "Thanks for your appointment!"
+msgstr "Hvala za vašo rezervacijo!"
+
+#: includes/emails/class-wc-email-appointment-follow-up.php:227
+#: includes/emails/class-wc-email-appointment-reminder.php:227
+msgid "Sending time"
+msgstr "Čas pošiljanja"
+
+#: includes/emails/class-wc-email-appointment-follow-up.php:229
+msgid "Sending time after the appointment is completed."
+msgstr "Čas po dokončanju rezervacije."
+
+#: includes/emails/class-wc-email-appointment-reminder.php:20
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:98
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:121
+msgid "Appointment Reminder"
+msgstr "Opomnik za rezervacijo"
+
+#: includes/emails/class-wc-email-appointment-reminder.php:21
+msgid ""
+"Appointment reminders are sent to the customer to remind them of an upcoming "
+"appointment."
+msgstr ""
+"Opomniki se pošljejo kupcu, da jih opomnijo na prihajajočo rezervacijo."
+
+#: includes/emails/class-wc-email-appointment-reminder.php:80
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:201
+msgid "[{site_title}]: Reminder of your appointment for {product_title}"
+msgstr "[{site_title}]: Opomnik na vašo rezervacijo za {product_title}"
+
+#: includes/emails/class-wc-email-appointment-reminder.php:90
+msgid "Appointment #{appointment_number} Reminder"
+msgstr "Opomnik rezervacije #{appointment_number}"
+
+#: includes/emails/class-wc-email-appointment-reminder.php:229
+msgid "Sending time before the appointment is scheduled."
+msgstr "Čas pred načrtovano rezervacijo."
+
+#: includes/gateways/class-wc-appointments-gateway.php:17
+msgid "Check appointment availability"
+msgstr "Preverite razpoložljivost rezervacije"
+
+#: includes/gateways/class-wc-appointments-gateway.php:19
+msgid "Request Confirmation"
+msgstr "Zahtevaj potrditev"
+
+#: includes/gateways/class-wc-appointments-gateway.php:38
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: includes/gateways/class-wc-appointments-gateway.php:42
+msgid ""
+"This is fictitious payment method used for appointments that requires "
+"confirmation."
+msgstr ""
+"To je izmišljen način plačila, ki se uporablja za rezervacije, ki zahtevajo "
+"potrditev."
+
+#: includes/gateways/class-wc-appointments-gateway.php:43
+msgid "This gateway requires no configuration."
+msgstr "Ta način plačila ne zahteva konfiguracije."
+
+#: includes/gateways/class-wc-appointments-gateway.php:77
+msgid "This order is awaiting confirmation from the shop manager"
+msgstr "To naročilo čaka na potrditev skrbnika spletnega mesta"
+
+#: includes/gateways/class-wc-appointments-gateway.php:96
+msgid "Your appointment has been confirmed. Thank you."
+msgstr "Vaša rezervacija je potrjena. Hvala za naročilo."
+
+#: includes/gateways/class-wc-appointments-gateway.php:98
+msgid ""
+"Your appointment is awaiting confirmation. You will be notified by email as "
+"soon as we've confirmed availability."
+msgstr ""
+"Vaša rezervacija čaka na potrditev. Po e-pošti vas bomo obvestili takoj, ko "
+"bomo potrdili razpoložljivost."
+
+#: includes/integrations/class-wc-appointments-integration-customer-relationship-manager.php:88
+msgid "Customer Notes"
+msgstr "Opombe stranki"
+
+#: includes/integrations/class-wc-appointments-integration-customer-relationship-manager.php:95
+msgid "Order Notes"
+msgstr "Opombe naročila"
+
+#. translators: %s
+#: includes/integrations/class-wc-appointments-integration-deposits.php:130
+#: includes/integrations/class-wc-appointments-integration-webtomizer-deposits.php:171
+msgid "Partially Paid <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Paid <span class=\"count\">(%s)</span>"
+msgstr[0] "Delno plačano <span class=\"count\">( %s )</span>"
+msgstr[1] "Delno plačano <span class=\"count\">( %s )</span>"
+msgstr[2] "Delno plačano <span class=\"count\">( %s )</span>"
+msgstr[3] "Delno plačano <span class=\"count\">( %s )</span>"
+
+#: includes/integrations/class-wc-appointments-integration-deposits.php:144
+#: includes/integrations/class-wc-appointments-integration-webtomizer-deposits.php:185
+msgid "Partially Paid"
+msgstr "Delno plačano"
+
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:186
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:192
+msgid "Appointment Cancelled: #{appointment_number}"
+msgstr "Rezervacija preklicana: #{appointment_number}"
+
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:196
+msgid "Appointment Confirmed: #{appointment_number}"
+msgstr "Rezervacija potrjena: #{appointment_number}"
+
+#: includes/integrations/class-wc-appointments-integration-kadence-woomail.php:200
+msgid "Appointment Reminder: #{appointment_number}"
+msgstr "Opomnik rezervacije: #{appointment_number}"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:253
+msgid "Recent Appointments"
+msgstr "Nedavne rezervacije"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:288
+msgid "There are no appointments available."
+msgstr "Na voljo ni nobenih rezervacij."
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:298
+#: templates/emails/admin-appointment-cancelled.php:35
+#: templates/emails/admin-new-appointment.php:44
+#: templates/emails/customer-appointment-cancelled.php:33
+#: templates/emails/customer-appointment-confirmed.php:33
+#: templates/emails/customer-appointment-follow-up.php:36
+#: templates/emails/customer-appointment-reminder.php:42
+msgid "Scheduled Product"
+msgstr "Storitev"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:311
+msgid "Appointment #%d"
+msgstr "Rezervacija #%d"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:331
+msgid "Order Detail"
+msgstr "Podrobnosti naročila"
+
+#: includes/integrations/class-wc-appointments-integration-product-vendors.php:331
+msgid "#%d"
+msgstr "#%d"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:280
+msgid "Calculate costs in other currencies automatically"
+msgstr "Samodejni izračun stroškov v drugih valutah"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:285
+msgid "Set costs in other currencies manually"
+msgstr "Ročna določitev stroškov v drugih valutah"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:738
+msgid "Appointment currency"
+msgstr "Valuta rezervacije"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:786
+msgid "Invalid nonce"
+msgstr "Polje \"nonce\" ni veljavno"
+
+#: includes/integrations/class-wc-appointments-integration-wcml.php:919
+msgid "Staff label"
+msgstr "Oznaka osebja"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:74
+msgid "Before Scheduled Date"
+msgstr "Pred načrtovanim datumom"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:75
+msgid "After Scheduled Date"
+msgstr "Po načrtovanem datumu"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:76
+msgid "After Appointment is Created"
+msgstr "Po tem, ko je rezervacija ustvarjena"
+
+#. translators: %s: appointment statuses
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:82
+msgid "After Appointment Status: %s"
+msgstr "Po statusu rezervacije: %s"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Appointments"
+msgstr "Rezervacije Terminov"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:89
+msgid "WooCommerce Appointment"
+msgstr "Rezervacija Terminov"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:92
+msgid ""
+"Send follow-up emails to customers that schedule appointments, services or "
+"rentals.<br />Increase revenue with a custom lifecycle marketing program "
+"from Outbound Commerce. It is email marketing for busy eCommerce businesses "
+"built by experienced eCommerce and marketing professionals."
+msgstr ""
+"Pošljite nadaljnja e-poštna sporočila strankam, ki načrtujejo sestanke, "
+"storitve ali najeme.<br />Povečajte prihodke s programom trženja "
+"življenjskega cikla po meri iz storitve Outbound Commerce."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:93
+msgid ""
+"Not sure where to start? Let Outbound Commerce help. Get email marketing for "
+"busy eCommerce businesses built by experienced eCommerce and marketing "
+"professionals."
+msgstr ""
+"Niste prepričani, kje začeti? Dovolite, da vam pomaga Outbound Commerce."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:106
+msgid "Customers who scheduled this event"
+msgstr "Stranke, ki so rezervirale ta dogodek"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:255
+msgid "Send on %s"
+msgstr "Poslano %s"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:271
+msgid "The name of the purchased item."
+msgstr "Naziv kupljenega artikla."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:272
+msgid "The list of categories where the purchased item is under."
+msgstr "Seznam kategorij, v katerih je kupljeni artikel."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:273
+msgid "The quantity of the purchased item."
+msgstr "Količina kupljenega artikla."
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:274
+msgid "The start date of the scheduled product or service"
+msgstr "Začetni datum izdelka ali storitve"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:275
+msgid "The end date of the scheduled product or service"
+msgstr "Končni datum izdelka ali storitve"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:276
+msgid "The duration of the scheduled product or service"
+msgstr "Trajanje izdelka ali storitve"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:277
+msgid "The date of the scheduled product or service"
+msgstr "Datum izdelka ali storitve"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:278
+msgid "The time of the scheduled product or service"
+msgstr "Čas izdelka ali storitve"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:279
+msgid "The amount or cost of the scheduled product or service"
+msgstr "Znesek ali strošek izdelka ali storitve"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:280
+msgid "The staff scheduled"
+msgstr "Osebje"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:281
+msgid "The ID of scheduled product or service"
+msgstr "ID izdelka ali storitve"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:282
+msgid "The cancellation link for appointment"
+msgstr "Povezava za preklic rezervacije"
+
+#: includes/integrations/woocommerce-follow-up-emails/class-wc-appointments-integration-follow-ups.php:1044
+msgid "Email queued: %s scheduled on %s<br/>Trigger: %s"
+msgstr "E-pošta v vrsti: %s rezervirano ob %s<br/>Sprožilec: %s"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:3
+msgid "Enable for"
+msgstr "Omogoči za"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:5
+msgid "All products"
+msgstr "Vsi izdelki"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:6
+msgid "A specific product"
+msgstr "Izbran izdelek"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:7
+msgid "A specific category"
+msgstr "Izbrana kategorija"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:40
+msgid "Include variations"
+msgstr "Vključite različice"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:46
+msgid "Category"
+msgstr "Kategorija"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:48
+msgid "Search for a category&hellip;"
+msgstr "Iskanje kategorije&hellip;"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/email-form.php:49
+msgid "Any Category"
+msgstr "Katerakoli kategorija"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:2
+msgid "Last Status"
+msgstr "Zadnji status"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:4
+msgid "Any status"
+msgstr "Katerikoli status"
+
+#: includes/integrations/woocommerce-follow-up-emails/templates/email-form/appointments/triggers.php:10
+msgid ""
+"Only send this email if the appointment's last status matches the selected "
+"value"
+msgstr ""
+"To e-poštno sporočilo pošljite le, če se zadnji status rezervacije ujema z "
+"izbrano vrednostjo"
+
+#. translators: %1$s: WC Product Add-ons, %2$s: WC Appointments
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:68
+msgid "%1$s has been deactivated as it is already included with the %2$s."
+msgstr "%1$s je bila onemogočena, saj je že vključena v %2$s."
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:218
+msgid "Hide duration label"
+msgstr "Skrij oznako trajanja"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:224
+msgid "Hide price label"
+msgstr "Skrij oznako cene"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:230
+msgid "Show before appointment form"
+msgstr "Pokaži pred obrazcem za rezervacijo"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:242
+msgid "Adjust duration"
+msgstr "Prilagodi trajanje"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:243
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:268
+msgid ""
+"Choose how to calculate duration: apply a flat time regardless of quantity "
+"or charge per quantity ordered"
+msgstr ""
+"Izberite način izračuna trajanja: uporabite celotni čas ne glede na količino "
+"ali zaračunavanje na izbrano količino"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:248
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:283
+msgid "Flat Time"
+msgstr "Čas"
+
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:249
+#: includes/integrations/woocommerce-product-addons/class-wc-appointments-integration-addons.php:284
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-option.php:43
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:249
+msgid "Quantity Based"
+msgstr "Količina"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:165
+msgid ""
+"All fields must have a title and/or option name. Please review the settings "
+"highlighted in red border."
+msgstr ""
+"Vsa polja morajo imeti naslov in/ali naziv. Preglejte nastavitve, označene v "
+"rdeči obrobi."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:166
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:198
+msgid "Limit price range"
+msgstr "Omejitev cenovnega razpona"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:167
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:202
+msgid "Limit quantity range"
+msgstr "Omejitev razpona količine"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:168
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:205
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:208
+msgid "Limit character length"
+msgstr "Omejitev dolžine znakov"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:169
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:192
+msgid "Restrictions"
+msgstr "Omejitve"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:170
+msgid "Are you sure you want remove this add-on field?"
+msgstr "Ali ste prepričani, da želite odstraniti to dodatno polje?"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:171
+msgid "Are you sure you want delete this option?"
+msgstr "Ali ste prepričani, da želite izbrisati to možnost?"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:172
+msgid "Add Image Swatch"
+msgstr "Dodaj izbor slik"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:173
+msgid "Add Image"
+msgstr "Dodaj sliko"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:204
+msgid "Add-on saved successfully"
+msgstr "Dodatno polje uspešno shranjeno"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:219
+msgid "Error: Add-on not found"
+msgstr "Napaka: dodatno polje ni najdeno"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:246
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:318
+msgid "Add-ons Group"
+msgstr "Skupina dodatnih polj"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:258
+msgid "Add-on deleted successfully"
+msgstr "Dodatno polje uspešno izbrisano"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:275
+msgid "Checkbox"
+msgstr "Potrditveno polje"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:284
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:72
+msgid "Short Text"
+msgstr "Kratko besedilo"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:287
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:73
+msgid "Long Text"
+msgstr "Dolgo besedilo"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:290
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:74
+msgid "File Upload"
+msgstr "Nalaganje datoteke"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:293
+msgid "Dropdown"
+msgstr "Spustni meni"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:297
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:70
+msgid "Multiple Choice"
+msgstr "Več možnosti izbire"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:654
+msgid "SKU:"
+msgstr "Koda izdelka:"
+
+#. translators: %s ID of variation
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:663
+msgid "%s (No longer exists)"
+msgstr "%s (Ne obstaja več)"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/class-wc-product-addons-admin.php:666
+msgid "Variation ID:"
+msgstr "ID variacije:"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-option.php:37
+msgid "Enter an option"
+msgstr "Vnesite možnost"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-option.php:42
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:248
+msgid "Flat Fee"
+msgstr "Temelji na fiksnem znesku"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-option.php:44
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:250
+msgid "Percentage Based"
+msgstr "Temelji na odstotku"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:11
+msgid "Add-on fields"
+msgstr "Dodatna polja"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:11
+msgid "Add fields to get additional information from customers"
+msgstr "Dodaj polja za pridobivanje dodatnih informacij od strank"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:13
+msgid "Expand all"
+msgstr "Razširi vse"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:13
+msgid "Close all"
+msgstr "Zapri vse"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:32
+msgid "Add Field"
+msgstr "Dodaj polje"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:35
+msgid "Import"
+msgstr "Uvozi"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:42
+msgid ""
+"Paste exported form data here and then save to import fields. The imported "
+"fields will be appended."
+msgstr ""
+"Prilepite izvožene podatke obrazca tukaj in nato shranite za uvoz polj. "
+"Uvožena polja bodo dodana obstoječim."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:46
+msgid "Additional add-ons"
+msgstr "Dodatna polja"
+
+#. translators: %s URL to addons page
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:50
+msgid ""
+"You can create additional <a href=\"%s\">add-ons</a> that apply to all "
+"products or to certain categories."
+msgstr ""
+"Ustvarite lahko <a href=\"%s\">dodatna polja</a>, ki veljajo za vse izdelke "
+"ali za določene kategorije."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:55
+msgid "Exclude add-ons"
+msgstr "Izključitev dodatnih polj"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon-panel.php:56
+msgid "Hide additional add-ons that may apply to this product."
+msgstr "Skrijte dodatna polja, ki se lahko uporabljajo za ta izdelek."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:9
+msgid "Multiple choice"
+msgstr "Več možnosti izbire"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:55
+msgid "Remove"
+msgstr "Odstrani"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:71
+msgid "Checkboxes"
+msgstr "Potrditvena polja"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:75
+msgid "Customer Defined Price"
+msgstr "Cena določena s strani kupca"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:77
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:128
+msgid "Heading"
+msgstr "Naslov"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:84
+msgid "Display as"
+msgstr "Prikaži kot"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:88
+msgid "Dropdowns"
+msgstr "Spustni meni"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:89
+msgid "Radio Buttons"
+msgstr "Radio gumbi"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:90
+msgid "Images"
+msgstr "Slike"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:97
+msgid "Restriction"
+msgstr "Omejitev"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:101
+msgid "Any Text"
+msgstr "Vsako besedilo"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:102
+msgid "Only Letters"
+msgstr "Samo črke"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:103
+msgid "Only Numbers"
+msgstr "Samo številke"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:104
+msgid "Only Letters and Numbers"
+msgstr "Samo črke in številke"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:105
+msgid "Only Email Address"
+msgstr "Samo e-poštni naslov"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:123
+msgid "Format title"
+msgstr "Oblika naslova"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:129
+msgid "Hide"
+msgstr "Skrij"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:139
+msgid "Add description"
+msgstr "Dodaj opis"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:149
+#: includes/integrations/woocommerce-product-addons/templates/addons/addon-start.php:83
+#: includes/integrations/woocommerce-product-addons/templates/addons/addon-start.php:107
+msgid "Required field"
+msgstr "Zahtevano polje"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:160
+msgid "Option"
+msgstr "Možnost"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:166
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:243
+msgid ""
+"Choose how to calculate price: apply a flat fee regardless of quantity, "
+"charge per quantity ordered, or charge a percentage of the total"
+msgstr ""
+"Izberite način izračuna cene: uporabite znesek ne glede na količino, "
+"zaračunajte glede na naročeno količino ali zaračunajte odstotek skupnega "
+"zneska"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:183
+msgid "Add Option"
+msgstr "Dodaj možnost"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:229
+msgid "unlimited"
+msgstr "neomejeno"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:230
+msgid "Enter a minimum and maximum value for the limit range."
+msgstr "Vnesite najmanjšo in največjo vrednost za razpon."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-addon.php:242
+msgid "Adjust price"
+msgstr "Prilagodi ceno"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:6
+msgid "Create add-ons"
+msgstr "Ustvari dodatna polja"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:7
+msgid "Publish"
+msgstr "Objavi"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:10
+msgid "Edit Add-on"
+msgstr "Uredi dodatno polje"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:19
+msgid ""
+"Set up add-ons that apply to all products or specific product categories."
+msgstr ""
+"Nastavite dodatna polja, ki veljajo za vse izdelke ali določene kategorije "
+"izdelkov."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:25
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:14
+msgid "Name"
+msgstr "Naziv"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:29
+msgid ""
+"This name is for your reference only and will not be visible to customers."
+msgstr "Ta naziv je samo za vašo referenco in ne bo vidno strankam."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:38
+msgid ""
+"This determines the order when there are multiple add-ons. Add-ons for "
+"individual products are set to order 10."
+msgstr ""
+"S tem določite vrstni red, ko je več polj. Dodatna polja za posamezne "
+"izdelke so privzeto nastavljeni na 10."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:43
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:16
+msgid "Product Categories"
+msgstr "Kategorije izdelkov"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:46
+msgid "Choose categories&hellip;"
+msgstr "Izberite kategorije&hellip;"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:47
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:38
+msgid "All Products"
+msgstr "Vsi izdelki"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:48
+msgid "Product categories"
+msgstr "Kategorije izdelkov"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin-add.php:59
+msgid ""
+"Select which categories this add-on should apply to. Create add-ons for a "
+"single product when editing that product."
+msgstr ""
+"Izberite kategorije, za katere naj se uporabi to dodatno polje. Pri urejanju "
+"izdelka ustvarite dodatna polja samo za ta izdelek."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:9
+msgid "Add-Ons"
+msgstr "Dodatna polja"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:9
+msgid "Create New"
+msgstr "Ustvari novo"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:17
+msgid "Number of Fields"
+msgstr "Število polj"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:29
+msgid "Delete"
+msgstr "Izbriši"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:40
+msgid "No Products Assigned"
+msgstr "Ni dodeljenih izdelkov"
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:56
+msgid "No add-ons found."
+msgstr "Ni najdenih dodatnih polj."
+
+#: includes/integrations/woocommerce-product-addons/includes/admin/views/html-global-admin.php:56
+msgid "Create add-ons."
+msgstr "Ustvarite dodatna polja."
+
+#: includes/integrations/woocommerce-product-addons/includes/class-wc-product-addons-display.php:95
+msgid "Subtotal"
+msgstr "Seštevek"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-wc-product-addons-display.php:96
+msgid "%s characters remaining"
+msgstr "%s preostalo znakov"
+
+#: includes/integrations/woocommerce-product-addons/includes/class-wc-product-addons-display.php:494
+msgid "Select options"
+msgstr "Izberi možnosti"
+
+#. translators: %s Name of the addon
+#. translators: %s Addon name
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-custom.php:17
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-file-upload.php:29
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-list.php:15
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-select.php:14
+msgid "\"%s\" is a required field."
+msgstr "\"%s\" je obvezno polje."
+
+#. translators: %1$s Addon name, %2$s Minimum amount
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-custom.php:27
+msgid "The minimum characters required for \"%1$s\" is %2$s."
+msgstr "Najmanj znakov, potrebnih za »%1$s« je %2$s."
+
+#. translators: %1$s Addon name, %2$s Maximum amount
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-custom.php:32
+msgid "The maximum allowed characters for \"%1$s\" is %2$s."
+msgstr "Največ dovoljenih znakov za »%1$s« je %2$s."
+
+#. translators: %1$s Addon name, %2$s minimum amount
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-custom.php:40
+msgid "The minimum amount required for \"%1$s\" is %2$s."
+msgstr "Najmanjši znesek, potreben za »%1$s« je %2$s."
+
+#. translators: %1$s Addon name, %2$s Maximum amount
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-custom.php:47
+msgid "The maximum allowed amount for \"%1$s\" is %2$s."
+msgstr "Najvišji dovoljeni znesek za »%1$s« je %2$s."
+
+#. translators: %s Addon name
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-custom.php:61
+msgid "Please enter a value greater than 0 for \"%s\"."
+msgstr "Vnesite vrednost, večjo od 0 za »%s«."
+
+#: includes/integrations/woocommerce-product-addons/includes/fields/class-wc-product-addons-field-file-upload.php:34
+msgid "Filesize exceeds the limit."
+msgstr "Velikost datoteke presega omejitev."
+
+#: includes/integrations/woocommerce-product-addons/includes/groups/class-wc-product-addons-groups.php:51
+msgid "Unable to retrieve data. Invalid global add ons group or product ID."
+msgstr ""
+"Podatkov ni mogoče pridobiti. Neveljavna skupina globalnih polj ali ID "
+"izdelka."
+
+#: includes/integrations/woocommerce-product-addons/includes/groups/class-wc-product-addons-groups.php:83
+msgid "Unable to delete group. Invalid global add ons group ID."
+msgstr "Ni mogoče izbrisati skupine. Neveljaven ID skupine globalnih polj."
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/custom-text.php:44
+msgid "Only letters"
+msgstr "Samo črke"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/custom-text.php:48
+msgid "Only numbers"
+msgstr "Samo številke"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/custom-text.php:52
+msgid "Only letters and numbers"
+msgstr "Samo črke in številke"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/file-upload.php:58
+msgid "(max file size %s)"
+msgstr "(največja velikost datoteke je %s)"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/image.php:75
+#: includes/integrations/woocommerce-product-addons/templates/addons/select.php:16
+msgid "None"
+msgstr "Brez"
+
+#: includes/integrations/woocommerce-product-addons/templates/addons/image.php:77
+#: includes/integrations/woocommerce-product-addons/templates/addons/select.php:18
+msgid "Select an option..."
+msgstr "Izberite možnost…"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms-legacy.php:83
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms-legacy.php:143
+msgid ""
+"Reminder: Appointment (%appointment_name%) will take place soon "
+"(%appointment_time%)."
+msgstr ""
+"Opomnik: Rezervacija (%appointment_name%) se bo zgodila kmalu ob "
+"(%appointment_time%)."
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:147
+msgid "Appointments Settings"
+msgstr "Nastavitve rezervacij"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:153
+msgid "Opt-in Checkbox Label"
+msgstr "Oznaka potrditvenega polja"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:154
+msgid ""
+"This message overrides the default label when an appointment is purchased."
+msgstr "To sporočilo preglasi privzeto oznako, ko je rezervacija oddana."
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:156
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:508
+msgid "Please send appointment reminders via text message"
+msgstr "Prosimo, pošljite opomnike za rezervacijo preko besedilnega sporočila"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:163
+msgid "Admin Notifications"
+msgstr "Obvestila skrbnikom spletnega mesta"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:181
+msgid "Customer Notifications"
+msgstr "Obvestila strankam"
+
+#. translators: %1$s is <code>, %2$s is </code>
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:209
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:363
+msgid ""
+"Use these tags to customize your message: %1$s{billing_name}%2$s, "
+"%1$s{appointment_start_time}%2$s, %1$s{appointment_end_time}%2$s, "
+"%1$s{appointment_date}%2$s, %1$s{staff}%2$s. Remember that SMS messages may "
+"be limited to 160 characters or less."
+msgstr ""
+"S temi oznakami prilagodite sporočilo: %1$s{billing_name}%2$s, "
+"%1$s{appointment_start_time}%2$s, %1$s{appointment_end_time}%2$s, "
+"%1$s{appointment_date}%2$s, %1$s{staff}%2$s. Ne pozabite, da so SMS "
+"sporočila morda omejena na 160 znakov ali manj."
+
+#. translators: Placeholder: %s = notification label
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:216
+msgid "Send %s SMS notifications"
+msgstr "Pošilji %s SMS sporočil"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:230
+msgid "Notification recipient(s)"
+msgstr "Prejemnik(i) obvestila"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:231
+msgid ""
+"Enter the mobile number (starting with the country code) where the "
+"notification should be sent. Send to multiple recipients by separating "
+"numbers with commas."
+msgstr ""
+"Vnesite mobilno številko (začenja se s klicno številko države), kamor je "
+"poslano obvestilo. Pošljite več prejemnikom tako, da ločite številke z "
+"vejicami."
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:245
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:385
+msgid "after appointment ends"
+msgstr "po koncu rezervacije"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:250
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:255
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:385
+msgid "before appointment starts"
+msgstr "pred začetkom rezervacije"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:261
+msgid "Send this message"
+msgstr "Pošlji to sporočilo"
+
+#. translators: Placeholder: %s = notification label
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:272
+msgid "%s message"
+msgstr "%s sporočilo"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:337
+msgid "SMS Notification"
+msgstr "SMS sporočilo"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:357
+msgid "Use global settings"
+msgstr "Uporaba globalnih nastavitev"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:358
+msgid "Override global settings"
+msgstr "Preglasi globalne nastavitve"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:359
+msgid "Don't send"
+msgstr "Ne pošlji"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:384
+msgid "Send follow-up"
+msgstr "Pošlji sporočilo po rezervaciji"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:384
+msgid "Send reminder"
+msgstr "Pošlji opomnik"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:408
+msgid "Message"
+msgstr "Sporočilo"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:850
+msgid "Error sending SMS: %s"
+msgstr "Napaka pri pošiljanju SMSa: %s"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:875
+msgid "Admin reminder"
+msgstr "Opomnik skrbnika"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:876
+msgid "Admin cancellation"
+msgstr "Obvestilo preklica za skrbnika"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:877
+msgid "Customer reminder"
+msgstr "Opomnik stranke"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:878
+msgid "Customer follow up"
+msgstr "Obvestilo po rezervaciji za stranko"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:879
+msgid "Customer cancellation"
+msgstr "Obvestilo preklica za stranko"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:880
+msgid "Customer confirmation"
+msgstr "Obvestilo za stranko"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:933
+msgid ""
+"The {shop_name} appointment for {billing_name} starts at "
+"{appointment_start_time} on {appointment_date}"
+msgstr ""
+"Rezervacija na {shop_name} s strani {billing_name} se začne ob "
+"{appointment_start_time} na dan {appointment_date}"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:945
+msgid ""
+"Heads up: your appointment with {billing_name} starts at "
+"{appointment_start_time}"
+msgstr ""
+"Glav gor: vaš sestanek z {billing_name} se začne pri {appointment_start_time}"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:946
+msgid ""
+"Your appointment with {billing_name} at {appointment_start_time} on "
+"{appointment_date} has been cancelled"
+msgstr ""
+"Vaša rezervacija z {billing_name} ob {appointment_start_time} na dan "
+"{appointment_date} je bila preklicana"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:947
+msgid ""
+"Hi {billing_name}! This is a reminder that your {shop_name} appointment "
+"starts at {appointment_start_time} on {appointment_date}. See you soon!"
+msgstr ""
+"Pozdravljeni, {billing_name}! To je opomnik, da se vaša rezervacija na "
+"{shop_name} začne ob {appointment_start_time} na dan {appointment_date}. Se "
+"kmalu vidimo!"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:948
+msgid ""
+"Thanks again for appointment with {shop_name}, {billing_name}! We hope to "
+"see you again soon."
+msgstr ""
+"Hvala še enkrat za rezervacijo na {shop_name}, {billing_name}! Upamo, da vas "
+"bomo kmalu spet videli."
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:949
+msgid ""
+"Your appointment with {shop_name} at {appointment_start_time} on "
+"{appointment_date} has been cancelled"
+msgstr ""
+"Vaša rezervacija na {shop_name} ob {appointment_start_time} na dan "
+"{appointment_date} je bila preklicana"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:950
+msgid ""
+"Your appointment with {shop_name} at {appointment_start_time} on "
+"{appointment_date} has been confirmed. See you there!"
+msgstr ""
+"Vaša rezervacija na {shop_name} ob {appointment_start_time} na dan "
+"{appointment_date} je potrjena. Se vidimo!"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms.php:1132
+msgid ""
+"Reminder SMS notifications can only be sent up to 48 hours before an event "
+"starts. Your schedule has been automatically adjusted."
+msgstr ""
+"Obvestila SMS je mogoče poslati le do 48 ur pred začetkom dogodka. Urnik je "
+"bil samodejno prilagojen."
+
+#: includes/wc-appointments-functions.php:95
+#: includes/wc-appointments-functions.php:127
+#: includes/wc-appointments-functions.php:139
+#: includes/wc-appointments-functions.php:158
+#: includes/wc-appointments-functions.php:176
+#: includes/wc-appointments-functions.php:190
+msgid "Unpaid"
+msgstr "Neplačano"
+
+#: includes/wc-appointments-functions.php:96
+#: includes/wc-appointments-functions.php:128
+#: includes/wc-appointments-functions.php:140
+#: includes/wc-appointments-functions.php:159
+#: includes/wc-appointments-functions.php:178
+#: includes/wc-appointments-functions.php:192
+msgid "Pending Confirmation"
+msgstr "Potrditev v čakanju"
+
+#: includes/wc-appointments-functions.php:97
+#: includes/wc-appointments-functions.php:129
+#: includes/wc-appointments-functions.php:141
+#: includes/wc-appointments-functions.php:160
+#: includes/wc-appointments-functions.php:168
+#: includes/wc-appointments-functions.php:179
+#: includes/wc-appointments-functions.php:193
+msgid "Confirmed"
+msgstr "Potrjeno"
+
+#: includes/wc-appointments-functions.php:98
+#: includes/wc-appointments-functions.php:130
+#: includes/wc-appointments-functions.php:142
+#: includes/wc-appointments-functions.php:161
+#: includes/wc-appointments-functions.php:169
+#: includes/wc-appointments-functions.php:177
+#: includes/wc-appointments-functions.php:191
+msgid "Paid"
+msgstr "Plačano"
+
+#: includes/wc-appointments-functions.php:99
+#: includes/wc-appointments-functions.php:131
+#: includes/wc-appointments-functions.php:180
+msgid "Cancelled"
+msgstr "Preklicano"
+
+#: includes/wc-appointments-functions.php:100
+#: includes/wc-appointments-functions.php:132
+#: includes/wc-appointments-functions.php:181
+#: includes/wc-appointments-functions.php:194
+msgid "Complete"
+msgstr "Zaključeno"
+
+#: includes/wc-appointments-functions.php:101
+#: includes/wc-appointments-functions.php:183
+#: includes/wc-appointments-functions.php:195
+msgid "In Cart"
+msgstr "V košarici"
+
+#: includes/wc-appointments-functions.php:149
+msgid "Expected"
+msgstr "V pričakovanju"
+
+#: includes/wc-appointments-functions.php:150
+msgid "Arrived"
+msgstr "Prispel"
+
+#: includes/wc-appointments-functions.php:151
+msgid "No-show"
+msgstr "Brez prihoda"
+
+#. translators: %s: minutes
+#: includes/wc-appointments-functions.php:552
+#: includes/wc-appointments-functions.php:563
+#: includes/wc-appointments-functions.php:568
+#: includes/wc-appointments-functions.php:1282
+#: includes/wc-appointments-functions.php:1285
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minuta"
+msgstr[1] "%s minuti"
+msgstr[2] "%s minute"
+msgstr[3] "%s minut"
+
+#: includes/wc-appointments-functions.php:865
+msgid "Rules further down the table will override those at the top."
+msgstr "Pravila pozicionirana nižje na seznamu bodo preglasila tista višje."
+
+#: includes/wc-appointments-functions.php:869
+msgid ""
+"Rules with lower priority numbers will override rules with a higher priority "
+"(e.g. 9 overrides 10 ). Global rules take priority over product rules which "
+"take priority over staff rules. By using priority numbers you can execute "
+"rules in different orders."
+msgstr ""
+"Pravila z nižjimi prioritetnimi številkami bodo preglasila pravila z višjo "
+"vrednostjo (npr. 9 preglasi 10). Globalna pravila imajo prednost pred "
+"pravili za izdelke, ki imajo prednost pred pravili osebja. Z uporabo "
+"prednostnih številk lahko pravila izvršite v različnem vrstnem redu."
+
+#: includes/wc-appointments-functions.php:1047
+msgid "Providers:"
+msgstr "Ponudniki:"
+
+#: templates/appointment-form/date-picker.php:44
+#: templates/appointment-form/datetime-picker.php:44
+msgid "Choose..."
+msgstr "Izberi..."
+
+#: templates/appointment-form/date-picker.php:65
+#: templates/appointment-form/date-picker.php:76
+#: templates/appointment-form/datetime-picker.php:64
+#: templates/appointment-form/datetime-picker.php:75
+msgid "mm"
+msgstr "mm"
+
+#: templates/appointment-form/date-picker.php:68
+#: templates/appointment-form/date-picker.php:73
+#: templates/appointment-form/datetime-picker.php:67
+#: templates/appointment-form/datetime-picker.php:72
+msgid "dd"
+msgstr "dd"
+
+#: templates/appointment-form/date-picker.php:80
+#: templates/appointment-form/datetime-picker.php:80
+msgid "YYYY"
+msgstr "LLLL"
+
+#: templates/appointment-form/date-picker.php:81
+#: templates/appointment-form/datetime-picker.php:81
+msgid "Year"
+msgstr "Leto"
+
+#: templates/appointment-form/datetime-picker.php:88
+msgid "Choose a date above to see available time slots."
+msgstr "Če želite videti razpoložljive termine, izberite datum zgoraj."
+
+#: templates/appointment-form/select-staff.php:36
+msgid "&mdash; No Preference &mdash;"
+msgstr "&mdash; Poljubna izbira &mdash;"
+
+#: templates/emails/admin-appointment-cancelled.php:29
+msgid ""
+"The following appointment has been cancelled. The details of the cancelled "
+"appointment are shown below."
+msgstr "Ta rezervacija je bila preklicana. Podrobnosti so prikazane spodaj."
+
+#: templates/emails/admin-appointment-cancelled.php:44
+#: templates/emails/admin-new-appointment.php:52
+#: templates/emails/customer-appointment-cancelled.php:41
+#: templates/emails/customer-appointment-confirmed.php:41
+#: templates/emails/customer-appointment-follow-up.php:44
+#: templates/emails/customer-appointment-reminder.php:50
+msgid "Appointment Date"
+msgstr "Datum rezervacije"
+
+#: templates/emails/admin-appointment-cancelled.php:48
+#: templates/emails/admin-new-appointment.php:56
+#: templates/emails/customer-appointment-cancelled.php:45
+#: templates/emails/customer-appointment-confirmed.php:45
+#: templates/emails/customer-appointment-follow-up.php:48
+#: templates/emails/customer-appointment-reminder.php:54
+msgid "Appointment Duration"
+msgstr "Trajanje rezervacije"
+
+#: templates/emails/admin-appointment-cancelled.php:53
+#: templates/emails/admin-new-appointment.php:61
+#: templates/emails/customer-appointment-cancelled.php:50
+#: templates/emails/customer-appointment-confirmed.php:50
+#: templates/emails/customer-appointment-follow-up.php:53
+#: templates/emails/customer-appointment-reminder.php:59
+msgid "Appointment Providers"
+msgstr "Ponudniki rezervacije"
+
+#. translators: %s: a link to an appointment
+#. translators: %s: a href to appointment
+#. translators: %s: a href to appointment
+#: templates/emails/admin-appointment-cancelled.php:65
+#: templates/emails/admin-new-appointment.php:77
+#: templates/emails/plain/admin-appointment-cancelled.php:45
+msgid "You can view and edit this appointment in the dashboard here: %s"
+msgstr ""
+"To rezervacijo si lahko ogledate in uredite na nadzorni plošči tukaj: %s"
+
+#. translators: %s: billing first and last name
+#: templates/emails/admin-new-appointment.php:28
+msgid ""
+"An appointment has been made by %s and is awaiting your approval. The "
+"details of this appointment are shown below."
+msgstr ""
+"Rezervacija je bila oddana s strani %s in čaka na vašo potrditev. "
+"Podrobnosti so prikazane spodaj."
+
+#. translators: %s: billing first and last name
+#: templates/emails/admin-new-appointment.php:31
+msgid ""
+"An new appointment has been made by %s. The details of this appointment are "
+"shown below."
+msgstr ""
+"Nova rezervacija je bila oddana s strani %s. Podrobnosti so prikazane spodaj."
+
+#: templates/emails/admin-new-appointment.php:71
+#: templates/emails/plain/admin-new-appointment.php:58
+msgid ""
+"This appointment is awaiting your approval. Please check it and inform the "
+"customer if the date is available or not."
+msgstr ""
+"Ta rezervacija čaka na vašo odobritev. Preverite in obvestite stranko, če je "
+"datum na voljo ali ne."
+
+#: templates/emails/customer-appointment-cancelled.php:28
+msgid ""
+"We are sorry to say that your appointment could not be confirmed and has "
+"been cancelled. The details of the cancelled appointment are shown below."
+msgstr ""
+"Žal nam je, da vaše rezervacije ni bilo mogoče potrditi in je bila "
+"preklicana. Podrobnosti so prikazane spodaj."
+
+#: templates/emails/customer-appointment-confirmed.php:28
+msgid ""
+"Your appointment has been confirmed. The details of your appointment are "
+"shown below."
+msgstr "Vaša rezervacija je potrjena. Podrobnosti so prikazane spodaj."
+
+#. translators: %s: checkout payment url
+#: templates/emails/customer-appointment-confirmed.php:66
+#: templates/emails/plain/customer-appointment-confirmed.php:53
+msgid "To pay for this appointment please use the following link: %s"
+msgstr "Za plačilo te rezervacije uporabite naslednjo povezavo: %s"
+
+#: templates/emails/customer-appointment-confirmed.php:66
+msgid "Pay for appointment"
+msgstr "Plačilo za rezervacijo"
+
+#. translators: %1$s: appointment start date
+#: templates/emails/customer-appointment-follow-up.php:30
+#: templates/emails/plain/customer-appointment-follow-up.php:29
+msgid "Your appointment took place on %1$s."
+msgstr "Vaša rezervacija je potekala %1$s."
+
+#: templates/emails/customer-appointment-reminder.php:29
+#: templates/emails/plain/customer-appointment-reminder.php:29
+msgid "Your appointment will take place today."
+msgstr "Vaša rezervacija bo danes."
+
+#. translators: %1$s: appointment start date
+#: templates/emails/customer-appointment-reminder.php:34
+#: templates/emails/plain/customer-appointment-reminder.php:32
+msgid "Your appointment will take place on %1$s."
+msgstr "Vaša rezervacija bo potekala %1$s."
+
+#: templates/emails/plain/admin-appointment-cancelled.php:23
+msgid ""
+"The following appointment has been cancelled by the customer. The details of "
+"the cancelled appointment can be found below."
+msgstr ""
+"Stranka je preklicala to rezervacijo. Podrobnosti o preklicani rezervaciji "
+"najdete spodaj."
+
+#. translators: %s: appointment product title
+#: templates/emails/plain/admin-appointment-cancelled.php:28
+#: templates/emails/plain/admin-new-appointment.php:41
+#: templates/emails/plain/customer-appointment-cancelled.php:33
+#: templates/emails/plain/customer-appointment-confirmed.php:33
+#: templates/emails/plain/customer-appointment-follow-up.php:34
+#: templates/emails/plain/customer-appointment-reminder.php:38
+msgid "Scheduled Product: %s"
+msgstr "Storitev: %s"
+
+#. translators: %s: appointment ID
+#: templates/emails/plain/admin-appointment-cancelled.php:30
+#: templates/emails/plain/admin-new-appointment.php:43
+#: templates/emails/plain/customer-appointment-cancelled.php:35
+#: templates/emails/plain/customer-appointment-confirmed.php:35
+#: templates/emails/plain/customer-appointment-follow-up.php:36
+#: templates/emails/plain/customer-appointment-reminder.php:40
+msgid "Appointment ID: %s"
+msgstr "ID rezervacije: %s"
+
+#. translators: %s: appointment start date
+#: templates/emails/plain/admin-appointment-cancelled.php:32
+#: templates/emails/plain/admin-new-appointment.php:45
+#: templates/emails/plain/customer-appointment-cancelled.php:37
+#: templates/emails/plain/customer-appointment-confirmed.php:37
+#: templates/emails/plain/customer-appointment-follow-up.php:38
+#: templates/emails/plain/customer-appointment-reminder.php:42
+msgid "Appointment Date: %s"
+msgstr "Datum rezervacije: %s"
+
+#. translators: %s: appointment duration
+#: templates/emails/plain/admin-appointment-cancelled.php:34
+#: templates/emails/plain/admin-new-appointment.php:47
+#: templates/emails/plain/customer-appointment-cancelled.php:39
+#: templates/emails/plain/customer-appointment-confirmed.php:39
+#: templates/emails/plain/customer-appointment-follow-up.php:40
+#: templates/emails/plain/customer-appointment-reminder.php:44
+msgid "Appointment Duration: %s"
+msgstr "Trajanje rezervacije: %s"
+
+#. translators: %s: appointment staff names
+#: templates/emails/plain/admin-appointment-cancelled.php:39
+#: templates/emails/plain/admin-new-appointment.php:52
+#: templates/emails/plain/customer-appointment-cancelled.php:44
+#: templates/emails/plain/customer-appointment-confirmed.php:44
+#: templates/emails/plain/customer-appointment-follow-up.php:45
+#: templates/emails/plain/customer-appointment-reminder.php:49
+msgid "Appointment Providers: %s"
+msgstr "Ponudniki rezervacije: %s"
+
+#. translators: %s: billing first and last name
+#: templates/emails/plain/admin-new-appointment.php:28
+msgid ""
+"A appointment has been made by %s and is awaiting your approval. The details "
+"of this appointment are as follows:"
+msgstr ""
+"Rezervacijo je opravila stranka %s in čaka na vašo odobritev. Podrobnosti so "
+"naslednje:"
+
+#. translators: %s: billing first and last name
+#: templates/emails/plain/admin-new-appointment.php:31
+msgid ""
+"A new appointment has been made by %s. The details of this appointment are "
+"as follows:"
+msgstr "Novo rezervacijo je opravil %s. Podrobnosti so naslednje:"
+
+#. translators: %s: billing first name
+#: templates/emails/plain/customer-appointment-cancelled.php:25
+#: templates/emails/plain/customer-appointment-confirmed.php:25
+#: templates/emails/plain/customer-appointment-follow-up.php:25
+#: templates/emails/plain/customer-appointment-reminder.php:25
+msgid "Hello %s"
+msgstr "Pozdravljeni %s"
+
+#: templates/emails/plain/customer-appointment-cancelled.php:28
+msgid ""
+"We are sorry to say that your appointment could not be confirmed and has "
+"been cancelled. The details of the cancelled appointment can be found below."
+msgstr ""
+"Žal nam je, da vaše rezervacije ni bilo mogoče potrditi in je bila "
+"preklicana. Podrobnosti najdete spodaj."
+
+#: templates/emails/plain/customer-appointment-confirmed.php:28
+msgid ""
+"Your appointment for has been confirmed. The details of your appointment are "
+"shown below."
+msgstr "Vaša rezervacija je potrjena. Podrobnosti so prikazane spodaj."
+
+#. translators: %s: order number
+#: templates/emails/plain/customer-appointment-confirmed.php:61
+msgid "Order number: %s"
+msgstr "Številka naročila: %s"
+
+#. translators: %s: order date
+#: templates/emails/plain/customer-appointment-confirmed.php:63
+msgid "Order date: %s"
+msgstr "Datum naročila: %s"
+
+#: templates/myaccount/appointments.php:23
+#: templates/myaccount/reschedule.php:23
+#: templates/single-product/add-to-cart/appointment.php:29
+msgid ""
+"Your browser must support JavaScript in order to schedule an appointment."
+msgstr "Vaš brskalnik mora podpirati JavaScript, da lahko rezervirate termin."
+
+#: templates/myaccount/appointments.php:40
+#: templates/myaccount/appointments.php:77
+msgid "Scheduled"
+msgstr "Načrtovano"
+
+#. translators: %d: Appointment ID
+#: templates/myaccount/appointments.php:53
+msgid "ID #%d"
+msgstr "ID #%d"
+
+#: templates/myaccount/appointments.php:89
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: templates/myaccount/appointments.php:92
+#: templates/myaccount/reschedule.php:38
+msgid "Reschedule"
+msgstr "Prestavi datum"
+
+#: templates/myaccount/appointments.php:121
+msgid "No appointments scheduled yet."
+msgstr "Zaenkrat brez rezervacij."
+
+#: templates/order/admin/appointment-display.php:43
+msgid "Confirm appointment"
+msgstr "Potrdi rezervacijo"
+
+#. translators: %s: a link to new product screen
+#: woocommerce-appointments.php:42
+msgid ""
+"Welcome to WooCommerce Appointments. <a href=\"%s\" class=\"button button-"
+"primary\">Add Appointable Products</a>"
+msgstr ""
+"Dobrodošli na WooCommerce Rezervacijah. <a href=\"%s\" class=\"button button-"
+"primary\">Dodaj izdelek za rezervacije</a>"
+
+#: woocommerce-appointments.php:102
+msgid "Cloning is forbidden."
+msgstr "Kopiranje je prepovedano."
+
+#: woocommerce-appointments.php:111
+msgid "Unserializing instances of this class is forbidden."
+msgstr "Neserializiranje je prepovedano."
+
+#: woocommerce-appointments.php:314
+msgid "View Documentation"
+msgstr "Ogled dokumentacije"
+
+#: woocommerce-appointments.php:314
+msgid "Docs"
+msgstr "Dokumentacija"
+
+#: woocommerce-appointments.php:315
+msgid "Visit Support Forum"
+msgstr "Obiščite forum za podporo"
+
+#: woocommerce-appointments.php:315
+msgid "Premium Support"
+msgstr "Premium podpora"
+
+#. Plugin URI of the plugin/theme
+msgid "https://bookingwp.com/plugins/woocommerce-appointments/"
+msgstr "https://bookingwp.com/plugins/woocommerce-appointments/"
+
+#. Description of the plugin/theme
+msgid "Setup appointable products for WooCommerce"
+msgstr "Nastavitev WooCommerce storitev za naročanje"
+
+#. Author of the plugin/theme
+msgid "BookingWP"
+msgstr "BookingWP"
+
+#. Author URI of the plugin/theme
+msgid "https://bookingwp.com"
+msgstr "https://bookingwp.com"
+
+#: includes/admin/class-wc-appointments-admin-ajax.php:388
+msgctxt "appointment cost string"
+msgid "Cost"
+msgstr "Cena"
+
+#. translators: Date and time format for exact current time, mainly about
+#. timezones, see https:www.php.net/date
+#: includes/admin/class-wc-appointments-admin-staff-profile.php:315
+msgctxt "timezone date format"
+msgid "Y-m-d H:i:s"
+msgstr "Y-m-d H:i:s"
+
+#: includes/admin/views/html-appointment-availability.php:49
+msgctxt "date format"
+msgid "w"
+msgstr "w"
+
+#: includes/admin/views/html-appointment-availability.php:50
+msgctxt "date format"
+msgid "D"
+msgstr "D"
+
+#: includes/admin/views/html-calendar-month.php:17
+msgctxt "date format"
+msgid "l"
+msgstr "l"
+
+#. translators: %s: product name in quotes
+#: includes/class-wc-appointment-cart-manager.php:554
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;"
+
+#: includes/class-wc-appointments-init.php:66
+msgctxt "Admin menu name"
+msgid "Appointments"
+msgstr "Rezervacije"
+
+#: includes/class-wc-appointments-init.php:95
+msgctxt "woocommerce-appointments"
+msgid "Complete"
+msgstr "Zaključeno"
+
+#: includes/class-wc-appointments-init.php:107
+msgctxt "woocommerce-appointments"
+msgid "Paid &amp; Confirmed"
+msgstr "Plačano in Potrjeno"
+
+#: includes/class-wc-appointments-init.php:119
+msgctxt "woocommerce-appointments"
+msgid "Confirmed"
+msgstr "Potrjeno"
+
+#: includes/class-wc-appointments-init.php:131
+msgctxt "woocommerce-appointments"
+msgid "Un-paid"
+msgstr "Neplačano"
+
+#: includes/class-wc-appointments-init.php:143
+msgctxt "woocommerce-appointments"
+msgid "Pending Confirmation"
+msgstr "Potrditev v čakanju"
+
+#: includes/class-wc-appointments-init.php:155
+msgctxt "woocommerce-appointments"
+msgid "Cancelled"
+msgstr "Preklicano"
+
+#: includes/class-wc-appointments-init.php:167
+msgctxt "woocommerce-appointments"
+msgid "In Cart"
+msgstr "V košarici"
+
+#: includes/integrations/class-wc-appointments-integration-deposits.php:124
+#: includes/integrations/class-wc-appointments-integration-webtomizer-deposits.php:165
+msgctxt "woocommerce-appointments"
+msgid "Partially Paid"
+msgstr "Delno plačano"
+
+#: includes/integrations/woocommerce-twilio-sms-notifications/class-wc-appointments-integration-twilio-sms-legacy.php:33
+msgctxt "woocommerce-appointments"
+msgid "Appointment Reminder"
+msgstr "Opomnik za rezervacijo"
+
+#. translators: %s: Guest name
+#: includes/data-objects/class-wc-appointment.php:1254
+#: includes/data-objects/class-wc-appointment.php:1256
+msgctxt "Guest string with name from appointment order in brackets"
+msgid "%s (Guest)"
+msgstr "%s (Gost)"
+
+#: includes/data-stores/class-wc-appointment-data-store.php:57
+msgctxt "Appointment date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#. translators: %s: hours in singular or plural
+#: includes/emails/class-wc-email-appointment-follow-up.php:52
+#: includes/emails/class-wc-email-appointment-reminder.php:52
+msgctxt "nx time"
+msgid "%s hour"
+msgid_plural "%s hour"
+msgstr[0] "%s ura"
+msgstr[1] "%s uri"
+msgstr[2] "%s ure"
+msgstr[3] "%s ur"
+
+#. translators: %s: days in singular or plural
+#: includes/emails/class-wc-email-appointment-follow-up.php:62
+#: includes/emails/class-wc-email-appointment-reminder.php:62
+msgctxt "nx time"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s dan"
+msgstr[1] "%s dneva"
+msgstr[2] "%s dni"
+msgstr[3] "%s dni"
+
+#~ msgid "Global Add-ons"
+#~ msgstr "Globalna dodatna polja"
+
+#~ msgid "Error: Global Add-on not found"
+#~ msgstr "Napaka: Globalno dodatno polje ni bilo najdeno"
+
+#~ msgid "Global Add-on Group"
+#~ msgstr "Skupina globalnih dodatnih polj"
+
+#~ msgid "Default Label"
+#~ msgstr "Privzeta oznaka"
+
+#~ msgid "New add-on"
+#~ msgstr "Novo dodatno polje"
+
+#~ msgid "Global Addon Exclusion"
+#~ msgstr "Izključitev globalnega polja"
+
+#~ msgid "Check this to exclude this product from all Global Addons"
+#~ msgstr "Potrdite, da izključite ta izdelek iz vseh Globalnih polj"
+
+#~ msgid "All addon fields require a name."
+#~ msgstr "Vsa dodatna polja zahtevajo naziv."
+
+#~ msgid "Min / max price"
+#~ msgstr "Najmanjša / največje cena"
+
+#~ msgid "Min / max multiplier"
+#~ msgstr "Najmanjši / največji zmnožek"
+
+#~ msgid "Min / max characters"
+#~ msgstr "Najmanj / največ znakov"
+
+#~ msgid "Min / max"
+#~ msgstr "Najmanj / največ"
+
+#~ msgid "Are you sure you want remove this add-on?"
+#~ msgstr "Ali ste prepričani, da želite odstraniti to dodatno polje?"
+
+#~ msgid "Group"
+#~ msgstr "Skupina"
+
+#~ msgid "Additional custom price input"
+#~ msgstr "Dodaten vnos cene"
+
+#~ msgid "Additional price multiplier"
+#~ msgstr "Dodatni množilec cen"
+
+#~ msgid "Custom input (textarea)"
+#~ msgstr "Vnos po meri (blok besedil)"
+
+#~ msgid "Custom input (text)"
+#~ msgstr "Vnos po meri (besedilo)"
+
+#~ msgid "Any text"
+#~ msgstr "Vsako besedilo"
+
+#~ msgid "Email address"
+#~ msgstr "E-poštni naslov"
+
+#~ msgid "File upload"
+#~ msgstr "Nalaganje datoteke"
+
+#~ msgid "Radio buttons"
+#~ msgstr "Radijski gumbi"
+
+#~ msgid "Select box"
+#~ msgstr "Izbirno polje"
+
+#~ msgid "Required fields?"
+#~ msgstr "Zahtevana polja?"
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Min / Max"
+#~ msgstr "Najmanj / Največ"
+
+#~ msgid "New&nbsp;Option"
+#~ msgstr "Nova možnost"
+
+#~ msgid "Add/Edit Global Add-on"
+#~ msgstr "Dodaj/uredi globalno dodatno polje"
+
+#~ msgid "Global Add-on Reference"
+#~ msgstr "Sklic globalnega dodatnega polja"
+
+#~ msgid "Give this global add-on a reference/name to make it recognisable."
+#~ msgstr "Dajte temu globalnemu dodatnemu polju sklic/ime, da bo razpoznaven."
+
+#~ msgid ""
+#~ "Give this global addon a priority - this will determine the order in "
+#~ "which multiple groups of addons get displayed on the frontend. Per-"
+#~ "product add-ons will always have priority 10."
+#~ msgstr ""
+#~ "Dajte temu globalnemu dodatnemu polju prioriteto - to bo določilo vrstni "
+#~ "red, po katerem se prikaže več skupin dodatnih polj za stranke. Dodatna "
+#~ "polja za izdelek bodo vedno imela priporiteto 10."
+
+#~ msgid "Applied to..."
+#~ msgstr "Velja za..."
+
+#~ msgid "Choose some options&hellip;"
+#~ msgstr "Izberite nekaj možnosti&hellip;"
+
+#~ msgid "Product category notifications"
+#~ msgstr "Obvestila za kategorije izdelkov"
+
+#~ msgid "Category:"
+#~ msgstr "Kategorija:"
+
+#~ msgid ""
+#~ "Choose categories which should show these addons (or apply to all "
+#~ "products)."
+#~ msgstr ""
+#~ "Izberite kategorije, za katere se naj prikažejo ta dodatna polja (ali "
+#~ "prikaži za vse izdelke)."
+
+#~ msgid "Save Global Add-on"
+#~ msgstr "Shrani globalno dodatno polje"
+
+#~ msgid "Add Global Add-on"
+#~ msgstr "Dodaj globalno dodatno polje"
+
+#~ msgid "Reference"
+#~ msgstr "Referenca"
+
+#~ msgid "Applies to..."
+#~ msgstr "Velja za..."
+
+#~ msgid "No global add-ons exists yet."
+#~ msgstr "Zaenkrat še ni globalnih dodatnih polj."
+
+#~ msgid "Add one?"
+#~ msgstr "Dodaj novo?"
+
+#~ msgid "The minimum allowed length for \"%s - %s\" is %s."
+#~ msgstr "Najmanjša dovoljena dolžina za \"%s - %s\" je %s."
+
+#~ msgid "The maximum allowed length for \"%s - %s\" is %s."
+#~ msgstr "Največja dovoljena dolžina za \"%s - %s\" je %s."
+
+#~ msgid "The minimum allowed amount for \"%s - %s\" is %s."
+#~ msgstr "Najmanjši dovoljeni znesek za \"%s - %s\" je %s."
+
+#~ msgid "The maximum allowed amount for \"%s - %s\" is %s."
+#~ msgstr "Najvišji dovoljeni znesek za \"%s - %s\" je %s."
+
+#~ msgid "Please enter a value greater than 0 for \"%s - %s\"."
+#~ msgstr "Vnesite vrednost, ki je večja od 0 za »%s - %s«."
+
+#~ msgid "Only letters are allowed for \"%s - %s\"."
+#~ msgstr "Dovoljene so samo črke za \"%s - %s\"."
+
+#~ msgid "Only digits are allowed for \"%s - %s\"."
+#~ msgstr "Dovoljene so samo številke za »%s - %s«."
+
+#~ msgid "Only letters and digits are allowed for \"%s - %s\"."
+#~ msgstr "Dovoljene so samo črke in številke za »%s - %s«."
+
+#~ msgid "A valid email address is required for \"%s - %s\"."
+#~ msgstr "Za »%s - %s« je potreben veljaven e-poštni naslov."
+
+#~ msgid "Options total:"
+#~ msgstr "Možnosti skupaj:"
+
+#~ msgid "Sub total:"
+#~ msgstr "Seštevek:"
+
+#~ msgid "characters remaining"
+#~ msgstr "znakov preostalo"
+
+#~ msgid "Please enter letters only"
+#~ msgstr "Vnesite samo črke"
+
+#~ msgid "Please enter digits only"
+#~ msgstr "Vnesite samo številke"
+
+#~ msgid "Please enter letters or digits only"
+#~ msgstr "Vnesite samo črke ali številke"
+
+#~ msgid "Please enter an email address"
+#~ msgstr "Vnesite e-poštni naslov"
+
+#~ msgid "This must be a number!"
+#~ msgstr "Mora biti številka!"
