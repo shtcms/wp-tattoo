@@ -2,7 +2,7 @@
 FROM wordpress:latest
 
 # Install additional dependencies
-RUN apt-get update && apt-get install -y \
+#RUN apt-get update && apt-get install -y \
     # Add any required dependencies here
     # Example: php7.4-gd php7.4-mysql
 
@@ -16,7 +16,7 @@ COPY . /var/www/html/
 COPY database-dump.sql /docker-entrypoint-initdb.d/
 
 # Remove unnecessary packages and files
-RUN apt-get remove -y <package_name> && apt-get autoremove -y
+#RUN apt-get remove -y <package_name> && apt-get autoremove -y
 
 # Update system packages
 RUN apt-get update && apt-get upgrade -y
